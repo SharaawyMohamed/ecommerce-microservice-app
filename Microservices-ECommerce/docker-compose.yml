@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
@@ -8,13 +6,15 @@ services:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
     ports:
-      - "8000:8000"
+      - "8000:8080" # ربط المنفذ 8000 الخارجي بالمنفذ 8080 الداخلي للتطبيق
     depends_on:
       - CatalogDB
+      - Redis
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - MongoDbSettings__ConnectionString=mongodb://CatalogDB:27017
       - MongoDbSettings__DatabaseName=CatalogDB
+      - ConnectionStrings__Redis=Redis:6379
 
   CatalogDB:
     image: mongo:latest
@@ -23,6 +23,12 @@ services:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
+
+  Redis:
+    image: redis:alpine
+    container_name: catalog-redis-container
+    ports:
+      - "6379:6379"
 
 volumes:
   mongo_data:
