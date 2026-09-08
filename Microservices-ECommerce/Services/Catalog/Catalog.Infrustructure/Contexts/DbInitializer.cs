@@ -17,6 +17,7 @@ namespace Catalog.Infrustructure.Contexts
 
 		private static async Task SeedTable<T>(IMongoCollection<T> collection, string fileName) where T : class
 		{
+			Console.WriteLine("Hello World!!!!!!!!!!!!!!!!!!!!");
 			var hasData = await collection.Find(Builders<T>.Filter.Empty).AnyAsync();
 
 			if (hasData)
@@ -38,7 +39,10 @@ namespace Catalog.Infrustructure.Contexts
 			if (entities is { Count: > 0 })
 			{
 				await collection.InsertManyAsync(entities);
+				Console.WriteLine("Seeded data:");
+				Console.WriteLine(entities.FirstOrDefault()) ;
 			}
+			
 		}
 	}
 }
