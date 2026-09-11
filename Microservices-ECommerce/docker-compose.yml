@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
     ports:
-      - "8000:8080" # ربط المنفذ 8000 الخارجي بالمنفذ 8080 الداخلي للتطبيق
+      - "8000:8080" 
     depends_on:
       - CatalogDB
       - Redis

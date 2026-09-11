@@ -2,9 +2,6 @@
 using Catalog.Core.Repositories;
 using Catalog.Infrustructure.Contexts;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Catalog.Infrustructure.Repositories
 {
@@ -25,7 +22,7 @@ namespace Catalog.Infrustructure.Repositories
 			return await productCollection.Find(Builders<Product>.Filter.Empty).ToListAsync();
 		}
 
-		public async Task<IEnumerable<Product>> GetAllProductsByBTypeAsync(string type)
+		public async Task<IEnumerable<Product>> GetProductsByBTypeAsync(string type)
 		{
 			return await productCollection.Find(x => x.Type.Name == type).ToListAsync();
 		}

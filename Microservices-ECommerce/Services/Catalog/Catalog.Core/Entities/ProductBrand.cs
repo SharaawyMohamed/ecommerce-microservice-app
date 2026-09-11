@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Catalog.Core.Entities
 {
-	public class ProductBrand:BaseEntity
+	public class ProductBrand:BaseEntity<string>
 	{
 		public string Name { get; set; }
 

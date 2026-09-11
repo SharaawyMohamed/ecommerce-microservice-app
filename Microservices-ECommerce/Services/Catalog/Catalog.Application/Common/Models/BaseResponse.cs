@@ -4,20 +4,20 @@ using System.Text;
 
 namespace Catalog.Application.Common.Models
 {
-	public class BaseResponse<T>
+	public class BaseResponse
 	{
 		public bool IsSuccess { get; init; }
 		public string? Message { get; init; }
-		public T? Data { get; init; }
+		public object? Data { get; init; }
 		public IReadOnlyList<string> Errors { get; init; } = [];
 
 		private BaseResponse()
 		{
 		}
 
-		public static BaseResponse<T> Success(T data, string? message = null)
+		public static BaseResponse Success(object? data, string? message = null)
 		{
-			return new BaseResponse<T>
+			return new BaseResponse
 			{
 				IsSuccess = true,
 				Data = data,
@@ -25,9 +25,9 @@ namespace Catalog.Application.Common.Models
 			};
 		}
 
-		public static BaseResponse<T> Failure(string message, IEnumerable<string>? errors = null)
+		public static BaseResponse Failure(string message, IEnumerable<string>? errors = null)
 		{
-			return new BaseResponse<T>
+			return new BaseResponse
 			{
 				IsSuccess = false,
 				Message = message,

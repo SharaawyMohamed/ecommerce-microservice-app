@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace Catalog.Core.Entities
 {
-	public class Product:BaseEntity
+	public class Product:BaseEntity<string>
 	{
 		public string Name { get; set; } = null!;
 

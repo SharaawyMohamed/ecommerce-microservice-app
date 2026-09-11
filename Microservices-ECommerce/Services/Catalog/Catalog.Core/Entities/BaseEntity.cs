@@ -6,10 +6,10 @@ using System.Text;
 
 namespace Catalog.Core.Entities
 {
-	public class BaseEntity
+	public class BaseEntity<T>
 	{
 		[BsonId]
 		[BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-		public string id { get; set; }
+		public T id { get; set; }
 	}
 }
