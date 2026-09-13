@@ -7,6 +7,7 @@ namespace Catalog.Core.Repositories
 {
 	public interface IProductRepository
 	{
+		Task<IEnumerable<Product>> GetAllProductsAsync();
 		Task<IEnumerable<Product>> GetAllProductsByNameAsync(string name);
 		Task<IEnumerable<Product>> GetProductsByBTypeAsync(string type);
 		Task<Product> GetProductByIdAsync(string id);
@@ -14,3 +15,4 @@ namespace Catalog.Core.Repositories
 		Task DeleteProductById(string id);
 	}
 }
+ 

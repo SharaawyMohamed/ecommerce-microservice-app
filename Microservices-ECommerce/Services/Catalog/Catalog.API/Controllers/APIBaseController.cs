@@ -1,6 +1,11 @@
-﻿namespace Catalog.API.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Catalog.API.Controllers
 {
-    public class APIBaseController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class APIBaseController:ControllerBase
     {
+       
     }
 }

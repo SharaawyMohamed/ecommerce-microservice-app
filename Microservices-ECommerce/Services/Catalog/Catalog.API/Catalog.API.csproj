@@ -22,4 +22,8 @@
     <ProjectReference Include="..\Catalog.Infrustructure\Catalog.Infrustructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Basket\" />
+  </ItemGroup>
+
 </Project>

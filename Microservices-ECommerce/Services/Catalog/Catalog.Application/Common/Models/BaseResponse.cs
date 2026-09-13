@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Catalog.Application.Common.Models
@@ -9,7 +10,7 @@ namespace Catalog.Application.Common.Models
 		public bool IsSuccess { get; init; }
 		public string? Message { get; init; }
 		public object? Data { get; init; }
-		public IReadOnlyList<string> Errors { get; init; } = [];
+		public IReadOnlyList<string> Errors { get; init; } = Array.Empty<string>();
 
 		private BaseResponse()
 		{
@@ -31,7 +32,7 @@ namespace Catalog.Application.Common.Models
 			{
 				IsSuccess = false,
 				Message = message,
-				Errors = errors?.ToList() ?? []
+				Errors = errors?.ToList() ?? new List<string>()
 			};
 		}
 	}
