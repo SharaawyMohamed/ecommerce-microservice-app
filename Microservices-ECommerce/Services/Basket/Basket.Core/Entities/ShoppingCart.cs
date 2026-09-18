@@ -13,7 +13,6 @@ namespace Basket.Core.Entities
         {
             
         }
-
         public ShoppingCart(string userName)
         {
             UserName = userName;

@@ -22,14 +22,14 @@ namespace Catalog.Application.Features.Product.Queries.GetAllProducts
         {
             try
             {
-                var products = await _productRepository.GetAllProductsAsync();
+                var products = await _productRepository.GetAllProductsAsync();               
                 return BaseResponse.Success(products);
             }
             catch (MongoDB.Driver.MongoException ex)
             {
                 return BaseResponse.Failure("Database unavailable: " + ex.Message);
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return BaseResponse.Failure("Unexpected error: " + ex.Message);
             }

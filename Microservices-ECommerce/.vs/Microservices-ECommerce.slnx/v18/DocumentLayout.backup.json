@@ -1,1009 +1,152 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\",
+  "WorkspaceRootPath": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2EEFCB3-8BDD-4684-BB7B-030DB89D34C5}|Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.infrustructure\\basket.infrustructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C2EEFCB3-8BDD-4684-BB7B-030DB89D34C5}|Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj|solutionrelative:services\\basket\\basket.infrustructure\\basket.infrustructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Basket\\Basket.Core\\Basket.Core.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{75D1729F-DD35-B1CF-B3E4-8DF51FC80673}|Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.infrustructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D1729F-DD35-B1CF-B3E4-8DF51FC80673}|Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj|solutionrelative:services\\basket\\basket.infrustructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{529F244F-C413-464B-9FFB-E2FFCBE9739F}|Services\\Basket\\Basket.Core\\Basket.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.core\\entities\\shoppingcartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529F244F-C413-464B-9FFB-E2FFCBE9739F}|Services\\Basket\\Basket.Core\\Basket.Core.csproj|solutionrelative:services\\basket\\basket.core\\entities\\shoppingcartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\markaz 2\\.copilot\\plans\\plan-add-basket-microservice-mirroring-catalog-architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\applicationassemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\applicationassemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidqueryhnalder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidqueryhnalder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\contexts\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\contexts\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\markaz 2\\.copilot\\plans\\plan-repository-inspection-and-bughotspot-report.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\mappings\\productmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\mappings\\productmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\contexts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\contexts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\repositories\\iunitofwrok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\repositories\\iunitofwrok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VisualStudio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\entities\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\entities\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\commands\\updateproduct\\updateproductcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33171ACA-1BC7-8018-2825-F152B91AD7F4}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33171ACA-1BC7-8018-2825-F152B91AD7F4}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductsbytype\\getproductsbytypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyname\\getproductbynamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getproductbyid\\getproductbyidvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.core\\interfaces\\icatalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933516A9-9F57-2D21-E1E7-AF9010E10C9E}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\interfaces\\icatalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\datacollections\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\datacollections\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33FC5A32-CDDC-EE43-9CA6-483EA2BFBE99}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\common\\constants\\persistence\\declaration.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\common\\constants\\persistence\\declaration.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\contexts\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\datacollections\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\datacollections\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|d:\\workarea\\sharawy\\githubarea\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.infrustructure\\datacollections\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33FE837F-9816-9472-0CCA-3D21D533CEEE}|Services\\Catalog\\Catalog.Infrustructure\\Catalog.Infrustructure.csproj|solutionrelative:services\\catalog\\catalog.infrustructure\\datacollections\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 248,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 137,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShoppingCartItems.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItems.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItems.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItems.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T13:46:50.232Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Basket.Infrustructure",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
-              "RelativeToolTip": "Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-11T12:55:30.087Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.json",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.json*",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T11:28:29.476Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{dee22b65-9761-4a26-8fb2-759b971d6dfc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Basket.Core.csproj",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-              "RelativeToolTip": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-11T10:54:17.678Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.Development.json",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.Development.json",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T11:28:26.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "plan-add-basket-microservice-mirroring-catalog-architecture.md [Preview]",
-              "DocumentMoniker": "C:\\Users\\markaz 2\\.copilot\\plans\\plan-add-basket-microservice-mirroring-catalog-architecture.md",
-              "ToolTip": "C:\\Users\\markaz 2\\.copilot\\plans\\plan-add-basket-microservice-mirroring-catalog-architecture.md [Preview]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-11T10:53:35.683Z",
-              "EditorCaption": " [Preview]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-11T07:55:01.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CatalogController.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAD4vx0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T05:55:54.665Z",
+              "WhenOpened": "2026-09-18T11:14:19.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T08:33:49.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\DependencyInjection.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAABiAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAgAAAAAAAowBIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T14:52:17.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Common\\Models\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Common\\Models\\BaseResponse.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Common\\Models\\BaseResponse.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Common\\Models\\BaseResponse.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwB4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T15:28:59.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationAssemblyReference.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\ApplicationAssemblyReference.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\ApplicationAssemblyReference.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\ApplicationAssemblyReference.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\ApplicationAssemblyReference.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T14:54:10.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Program.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Program.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:45:17.465Z",
+              "WhenOpened": "2026-09-18T11:23:37.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Dockerfile",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Dockerfile",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Dockerfile",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Dockerfile",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-06T16:02:54.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAvwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:26:17.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvzAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:19:30.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetProductsByTypeQueryHandler.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T20:12:02.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetProductByIdQueryHnalder.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAvwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T09:16:51.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GetAllProductsQueryHandler.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T10:08:09.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GetProductByNameQueryHandler.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T10:54:10.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Dependencyinjection.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Dependencyinjection.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Dependencyinjection.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Dependencyinjection.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Dependencyinjection.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:22:41.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\DbInitializer.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\DbInitializer.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\DbInitializer.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADgvxIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T15:04:13.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "APIBaseController.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\APIBaseController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Controllers\\APIBaseController.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\APIBaseController.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Controllers\\APIBaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T05:46:03.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\appsettings.Development.json",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\appsettings.Development.json",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-05T17:10:35.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GetAllProductsQueryHandlerTests.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application.Tests\\GetAllProductsQueryHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T07:53:32.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Catalog.Application.Tests.csproj",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application.Tests\\Catalog.Application.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-11T07:53:09.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "plan-repository-inspection-and-bughotspot-report.md [Preview]",
-              "DocumentMoniker": "C:\\Users\\markaz 2\\.copilot\\plans\\plan-repository-inspection-and-bughotspot-report.md",
-              "ToolTip": "C:\\Users\\markaz 2\\.copilot\\plans\\plan-repository-inspection-and-bughotspot-report.md [Preview]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-11T06:03:07.353Z",
-              "EditorCaption": " [Preview]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductMappingConfig.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Mappings\\ProductMappingConfig.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Mappings\\ProductMappingConfig.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Mappings\\ProductMappingConfig.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Mappings\\ProductMappingConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T14:57:59.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GetProductByNameQuery.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQuery.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQuery.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T10:54:09.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MongoDbSettings.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbSettings.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbSettings.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbSettings.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:08:39.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\BaseRepository.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T08:26:07.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T08:51:47.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUnitOfWrok.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IUnitOfWrok.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Repositories\\IUnitOfWrok.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IUnitOfWrok.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Repositories\\IUnitOfWrok.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T08:47:41.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Repositories\\IBaseRepository.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Repositories\\IBaseRepository.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Repositories\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:46:28.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
-              "DocumentMoniker": "D:\\VisualStudio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\VisualStudio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ToolTip": "D:\\VisualStudio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\VisualStudio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ViewState": "AgIAAIABAAAAAAAAAAAnwCsBAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-09-10T05:49:01.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T18:33:27.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ProductType.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\ProductType.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Entities\\ProductType.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\ProductType.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Entities\\ProductType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:48:46.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProductBrand.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\ProductBrand.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Entities\\ProductBrand.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\ProductBrand.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Entities\\ProductBrand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:48:39.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DeleteProductCommandValidator.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:26:17.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DeleteProductCommand.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:26:15.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UpdateProductCommandValidation.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:19:33.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Entities\\BaseEntity.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T15:11:30.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T15:27:38.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
               "Title": "UpdateProductCommand.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T11:13:52.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductCommandValidation.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T05:19:29.047Z",
+              "WhenOpened": "2026-09-18T11:14:08.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "GetProductsByTypeQuery.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQuery.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQuery.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAASAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAABAAAABA0szMzMwUwBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T20:11:58.221Z",
+              "WhenOpened": "2026-09-18T10:53:27.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "GetProductByIdResponse.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdResponse.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdResponse.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAIAAAAAMzMzMzMrwBAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T09:44:10.326Z",
+              "WhenOpened": "2026-09-18T10:51:40.209Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "GetProductByIdQuery.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T09:16:58.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "GetProductsByTypeValidator.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeValidator.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeValidator.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T20:12:02.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "GetProductByNameValidator.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameValidator.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameValidator.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T10:57:25.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "GetAllProductsQuery.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T10:08:09.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "GetProductByIdValidator.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdValidator.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdValidator.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T09:56:46.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "products.json",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\products.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\products.json",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\products.json",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\products.json",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAjwDYBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-05T12:06:12.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ViewState": "AgIAAMcBAABAmZmZmZknwNYBAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-09-08T12:54:27.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\appsettings.json",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\appsettings.json",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\appsettings.json",
-              "ViewState": "AgIAAAEAAACAZmZmZmYkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-07T21:55:49.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ICatalogContext.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Interfaces\\ICatalogContext.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Interfaces\\ICatalogContext.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Core\\Interfaces\\ICatalogContext.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Interfaces\\ICatalogContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T16:57:27.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "declaration.txt",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Common\\Constants\\Persistence\\declaration.txt",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Common\\Constants\\Persistence\\declaration.txt",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Common\\Constants\\Persistence\\declaration.txt",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Common\\Constants\\Persistence\\declaration.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-09-06T15:02:39.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "MongoDbContext.cs",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbContext.cs",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbContext.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\Contexts\\MongoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T15:45:47.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "brands.json",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\brands.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\brands.json",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\brands.json",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\brands.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-05T12:06:37.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "types.json",
-              "DocumentMoniker": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\types.json",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\types.json",
-              "ToolTip": "D:\\WorkArea\\Sharawy\\GitHubArea\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\types.json",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrustructure\\DataCollections\\types.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-05T12:06:08.642Z"
             }
           ]
         }

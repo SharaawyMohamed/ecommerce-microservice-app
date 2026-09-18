@@ -10,16 +10,17 @@ namespace Catalog.Infrustructure.Repositories
 		private readonly IMongoCollection<Product> productCollection;
 		public ProductRepository(MongoDbContext context)
 		{
-			productCollection = context.GetCollection<Product>(nameof(Product));
+			productCollection = context.GetCollection<Product>("Products");
 		}
 		public async Task DeleteProductById(string id)
 		{
-			productCollection.DeleteOne(id);
+			await productCollection.DeleteOneAsync(x => x.id == id);
 		}
 
 		public async Task<IEnumerable<Product>> GetAllProductsAsync()
 		{
-			return await productCollection.Find(Builders<Product>.Filter.Empty).ToListAsync();
+
+			return  await productCollection.Find(Builders<Product>.Filter.Empty).ToListAsync();
 		}
 
 		public async Task<IEnumerable<Product>> GetProductsByBTypeAsync(string type)

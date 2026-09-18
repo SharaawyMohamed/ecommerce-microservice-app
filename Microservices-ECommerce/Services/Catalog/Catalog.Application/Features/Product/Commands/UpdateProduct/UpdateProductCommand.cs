@@ -12,7 +12,7 @@ namespace Catalog.Application.Features.Product.Commands.UpdateProduct
         string Name,
         string Description,
         decimal Price,
-        string Summry,
+        string Summary,
         string Brand,
         string Type
         ) : IRequest<BaseResponse>;

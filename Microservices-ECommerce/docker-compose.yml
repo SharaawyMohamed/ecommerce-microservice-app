@@ -1,34 +1,51 @@
-services:
-  catalog.api:
-    image: ${DOCKER_REGISTRY-}catalogapi
-    container_name: catalog-app-container
-    build:
-      context: .
-      dockerfile: Services/Catalog/Catalog.API/Dockerfile
-    ports:
-      - "8000:8080" 
-    depends_on:
-      - CatalogDB
-      - Redis
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - MongoDbSettings__ConnectionString=mongodb://CatalogDB:27017
-      - MongoDbSettings__DatabaseName=CatalogDB
-      - ConnectionStrings__Redis=Redis:6379
+version: '3.8'
 
-  CatalogDB:
-    image: mongo:latest
-    container_name: catalog-db-container
+services:
+  mongo:
+    image: mongo:6.0
+    restart: unless-stopped
+    volumes:
+      - mongodb_data:/data/db
     ports:
       - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
 
-  Redis:
-    image: redis:alpine
-    container_name: catalog-redis-container
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
     ports:
       - "6379:6379"
 
+  catalog.api:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    depends_on:
+      - mongo
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - MongoDbSettings__ConnectionString=mongodb://mongo:27017
+      - MongoDbSettings__DatabaseName=CatalogDb
+    ports:
+      - "8081:8080"
+
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    depends_on:
+      - redis
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - CacheSettings__ConnectionString=redis:6379
+    ports:
+      - "8080:8080"
+
 volumes:
-  mongo_data:
+  mongodb_data:
+  redis_data:

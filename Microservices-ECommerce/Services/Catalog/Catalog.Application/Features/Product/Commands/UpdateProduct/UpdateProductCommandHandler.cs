@@ -27,7 +27,7 @@ namespace Catalog.Application.Features.Product.Commands.UpdateProduct
                 existing.Name = request.Name;
                 existing.Description = request.Description;
                 existing.Price = request.Price;
-                existing.Summary = request.Summry;
+                existing.Summary = request.Summary;
                 existing.Brand = new ProductBrand { Name = request.Brand };
                 existing.Type = new ProductType { Name = request.Type };
 

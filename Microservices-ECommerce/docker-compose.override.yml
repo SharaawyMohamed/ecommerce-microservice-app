@@ -2,6 +2,11 @@ services:
   catalog.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
     ports:
-      - "8080"
+      - "8081:8080"
+
+  basket.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:8080"

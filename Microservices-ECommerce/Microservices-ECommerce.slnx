@@ -1,16 +1,16 @@
 <Solution>
   <Folder Name="/Services/" />
   <Folder Name="/Services/Basket/">
-    <Project Path="Services/Basket/Basket.API/Basket.API.csproj" Id="e15bb14f-3d51-416f-9057-e8490226740d" />
-    <Project Path="Services/Basket/Basket.Application/Basket.Application.csproj" Id="02569dc6-cf61-4776-8303-1ddba9217569" />
-    <Project Path="Services/Basket/Basket.Core/Basket.Core.csproj" Id="529f244f-c413-464b-9ffb-e2ffcbe9739f" />
-    <Project Path="Services/Basket/Basket.Infrustructure/Basket.Infrustructure.csproj" Id="c2eefcb3-8bdd-4684-bb7b-030db89d34c5" />
+    <Project Path="Services/Basket/Basket.API/Basket.API.csproj" />
+    <Project Path="Services/Basket/Basket.Application/Basket.Application.csproj" />
+    <Project Path="Services/Basket/Basket.Core/Basket.Core.csproj" />
+    <Project Path="Services/Basket/Basket.Infrustructure/Basket.Infrustructure.csproj" />
   </Folder>
   <Folder Name="/Services/Catalog/">
-    <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" />
+    <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.API/Catalog.API.csproj" />
+    <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj" />
     <Project Path="Services/Catalog/Catalog.Application/Catalog.Application.csproj" />
     <Project Path="Services/Catalog/Catalog.Core/Catalog.Core.csproj" />
-    <Project Path="Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj" />
   </Folder>
   <Project Path="docker-compose.dcproj">
     <Build />
