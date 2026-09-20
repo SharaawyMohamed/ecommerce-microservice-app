@@ -1,0 +1,43 @@
+services:
+
+  mongo:
+    restart: always
+
+  redis:
+    restart: always
+    
+  postgres:
+    restart: always
+    
+
+  catalog.api:
+    restart: always
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Production
+    deploy: 
+      resources:
+        limits: 
+           cpus: '0.50'
+           memory: 512M
+
+
+  basket.api:
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M
+
+
+  discount.api:
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M

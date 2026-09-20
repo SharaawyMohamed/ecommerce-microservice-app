@@ -1,0 +1,17 @@
+services:
+  
+   catalog.api:
+     environment:
+       - ASPNETCORE_ENVIRONMENT=Development
+     
+ 
+   basket.api:
+     environment: 
+       - ASPNETCORE_ENVIRONMENT=Development
+    
+
+   discount.api:
+     environment:
+       - ASPNETCORE_ENVIRONMENT=Development
+    
+
