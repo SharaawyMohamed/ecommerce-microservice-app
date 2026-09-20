@@ -1,0 +1,7 @@
+---- Initialize Discount database schema
+--CREATE TABLE IF NOT EXISTS Coupon (
+--	Id SERIAL PRIMARY KEY,
+--	ProductName TEXT NOT NULL UNIQUE,
+--	Description TEXT,
+--	Amount NUMERIC(18,2) NOT NULL DEFAULT 0
+--);

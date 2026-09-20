@@ -7,10 +7,16 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="BUILDING_BLOCKS.md" />
+    <None Include="docker-compose.prod.yml" />
+    <None Include="docker-compose - Copy.override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose.dev.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

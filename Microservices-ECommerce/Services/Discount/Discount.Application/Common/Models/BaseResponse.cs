@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Discount.Application.Common.Models
+{
+	public class BaseResponse
+	{
+		public bool IsSuccess { get; init; }
+		public string? Message { get; init; }
+		public object? Data { get; init; }
+		public IReadOnlyList<string> Errors { get; init; } = Array.Empty<string>();
+
+		private BaseResponse()
+		{
+		}
+
+		public static BaseResponse Success(object? data = null, string? message = null)
+		{
+			return new BaseResponse
+			{
+				IsSuccess = true,
+				Data = data,
+				Message = message
+			};
+		}
+
+		public static BaseResponse Failure(string message, IEnumerable<string>? errors = null)
+		{
+			return new BaseResponse
+			{
+				IsSuccess = false,
+				Message = message,
+				Errors = errors?.ToList() ?? new List<string>()
+			};
+		}
+	}
+}

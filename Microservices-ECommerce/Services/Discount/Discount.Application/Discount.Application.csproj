@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\Discount.proto" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="12.1.1" />
+		<PackageReference Include="Grpc.AspNetCore" Version="2.83.0" />
+		<PackageReference Include="Mapster" Version="10.0.12" />
+		<PackageReference Include="Mapster.DependencyInjection" Version="10.0.12" />
+		<PackageReference Include="MediatR" Version="12.5.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Discount.Core\Discount.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Constants\Services\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Features\Discount\Commands\" />
+    <Folder Include="Features\Discount\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\Discount.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+</Project>
