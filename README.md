@@ -1,162 +1,142 @@
-# Microservices E‑Commerce (Monorepo)
+# Microservices E-Commerce (Microservices-ECommerce)
 
-High-level, practical README for the Microservices E‑Commerce sample solution. It explains architecture, how to run locally (dotnet / Docker), configuration keys, important implementation patterns (CQRS / MediatR / Mapster / FluentValidation), troubleshooting tips and recommended next steps.
+One-stop monorepo containing small example microservices implemented with .NET 10.
 
----
+Core ideas: each service follows a 4-layer pattern (Core / Application / Infrastructure / API). The project uses CQRS (MediatR), Mapster mappings, FluentValidation, and Docker Compose for local development.
 
-## Project summary
+Contents (services)
+- Services/Catalog — product catalogue (MongoDB)
+- Services/Basket — shopping basket (Redis cache)
+- Services/Discount — coupon service (Postgres / Dapper)
 
-- Tech stack: .NET 10, ASP.NET Core Web API, MongoDB (Catalog), Redis (Basket cache), Docker Compose
-- Architectural patterns: Clean layered service per microservice (Core / Application / Infrastructure / API), CQRS with MediatR, mapping with Mapster, validation with FluentValidation
-- Repo layout (important folders):
-  - `Services/Catalog` — Catalog service (MongoDB-backed product catalogue)
-  - `Services/Basket` — Basket service (Redis-backed shopping cart)
-  - `docker-compose.yml` — development compose file that brings up mongo, redis and services
+Quick navigation
+- docker-compose.yml — development compose that brings up mongodb, redis, postgres and the APIs
+- README.md — this file
 
----
+Table of contents
+- Getting started
+- Development (run single service)
+- Configuration
+- APIs & endpoints
+- Implementation notes
+- Troubleshooting
+- Contributing
 
-## Quick start (recommended)
+## Getting started (docker-compose)
 
 Prerequisites
+- Docker Engine (or Docker Desktop)
+- .NET 10 SDK (when running services locally)
 
-- .NET 10 SDK
-- Docker Engine (for docker compose) or local MongoDB/Redis if running services standalone
-- Optional: Postman or curl
-
-Run everything with Docker Compose (recommended for development):
+Bring up everything locally (recommended):
 
 ```powershell
 # from repository root (Microservices-ECommerce)
 docker compose up --build
 ```
 
-After compose finishes:
+After compose is ready the default local ports are:
+- Basket API: http://localhost:8080 (Swagger: /swagger)
+- Catalog API: http://localhost:8081 (Swagger: /swagger)
+- Discount API: http://localhost:8082 (Swagger: /swagger)
 
-- Basket API: http://localhost:8080 (Swagger UI: http://localhost:8080/swagger)
-- Catalog API: http://localhost:8081 (Swagger UI: http://localhost:8081/swagger)
-
-Run a single service locally (without Docker compose)
+## Run a single service locally (dev)
 
 ```powershell
 dotnet build
-dotnet run --project Services/Basket/Basket.API
 dotnet run --project Services/Catalog/Catalog.API
+dotnet run --project Services/Basket/Basket.API
+dotnet run --project Services/Discount/Discount.API
 ```
 
-If running a service locally, ensure required environment variables or appsettings are present (see Configuration section).
+When running from Visual Studio the API launch profiles open Swagger automatically in Development (launchUrl: swagger).
 
----
+## Configuration
 
-## Configuration keys
+Set values in appsettings.Development.json or environment variables. Common keys used by services:
 
-Set configuration in appsettings.{Environment}.json or environment variables. Examples:
+- Catalog (Mongo):
+  - `MongoDbSettings:ConnectionString` (e.g. mongodb://mongo:27017)
+  - `MongoDbSettings:DatabaseName` (e.g. CatalogDb)
 
-- Catalog service (MongoDB):
-  - `MongoDbSettings:ConnectionString` — e.g. `mongodb://mongo:27017` or `mongodb://127.0.0.1:27017`
-  - `MongoDbSettings:DatabaseName` — e.g. `CatalogDB`
+- Basket (Redis):
+  - `CacheSettings:ConnectionString` (e.g. redis:6379)
 
-- Basket service (Redis/cache):
-  - `CacheSettings:ConnectionString` or connection string name `Redis` — e.g. `redis:6379` or `127.0.0.1:6379`
+- Discount (Postgres):
+  - `DatabaseSettings:ConnectionString` (e.g. Host=postgres;Port=5432;Username=postgres;Password=postgres;Database=DiscountDb)
 
-When running with docker-compose the compose file already injects `MongoDbSettings__ConnectionString`, `MongoDbSettings__DatabaseName` and `CacheSettings__ConnectionString` for the containers.
-
----
+The docker-compose file injects environment variables for these settings when running the compose stack.
 
 ## APIs & sample requests
 
-Catalog (sample)
+### Catalog
+- GET /api/catalog         — list products
+- GET /api/catalog/{id}    — get product by id
 
-- GET all products
-  - GET `/api/catalog`
+### Basket
+- GET /api/basket/{userName}
+- POST /api/basket         — body: shopping cart JSON
+- DELETE /api/basket/{userName}
 
-Basket
+### Discount
+- GET /api/discount/{productName}
+- POST /api/discount       — create coupon
+- PUT /api/discount        — update coupon
+- DELETE /api/discount/{productName}
 
-- Get basket
-  - GET `/api/basket/{userName}`
+Use Swagger UI on each service to explore request/response shapes.
 
-- Create or update basket
-  - POST `/api/basket`
-  - Body (JSON):
+## Implementation notes
 
-```json
-{
-  "userName": "alice",
-  "items": [
-	{ "productId":"123", "productName":"Widget", "price":9.99, "quantity":2, "imageFile":"/img.png" }
-  ]
-}
-```
+- Project structure per service:
+  - Service.Core: entities and repository interfaces
+  - Service.Application: MediatR handlers, DTOs, validators, mapping (Mapster)
+  - Service.Infrustructure: persistence adapters (Mongo, Redis, Postgres), DI registrations
+  - Service.API: controllers, swagger, composition root
 
-- Delete basket
-  - DELETE `/api/basket/{userName}`
+- Mapping: Mapster mappings live in the Application layer. API layer performs minimal mapping from API DTOs to domain models for incoming requests.
 
-Use Swagger UI to explore each API: `/swagger` on the service port.
+- Validation: validators (FluentValidation) are implemented per command/query in Application. Consider adding a MediatR pipeline to auto-run validation.
 
----
-
-## Implementation notes (important building blocks)
-
-- Layering per service
-  - `*.Core` — domain entities and repository interfaces
-  - `*.Application` — MediatR handlers, DTOs, validators, mapping (this repo uses Mapster), business logic
-  - `*.Infrustructure` — concrete adapters (Mongo, Redis), DI registration
-  - `*.API` — controllers, routing, Swagger, minimal mapping to application models
-
-- Mapping: Mapster is used. Application layer owns mapping from domain -> response DTOs. The API layer performs minimal DTO -> domain mapping for incoming requests.
-
-- CQRS: Commands and Queries implemented with MediatR. Handlers return a shared `BaseResponse` (Success/Failure + Data).
-
-- Validation: FluentValidation validators live in the Application layer per command/query. Consider registering a MediatR pipeline behavior to execute validators automatically.
-
----
-
-## Database seeding
-
-Catalog service includes a seeder (`DbInitializer.Seeder`) that inserts data from `Catalog.Infrustructure/DataCollections/*.json` on first run when `UseDatabaseSeeding()` is invoked (Catalog API program calls it in development start-up). If you use Docker Compose, the compose-provided mongo instance will be seeded automatically when the service runs.
-
----
+- Persistence:
+  - Catalog uses MongoDB and includes a DbInitializer seeder that loads JSON sample data into Products/Brands/Types on first run.
+  - Basket uses Redis (IDistributedCache) to store ShoppingCart JSON.
+  - Discount uses Postgres + Dapper. Docker compose runs an init SQL (init.sql) to create the Coupon table.
 
 ## Troubleshooting (common issues)
 
-- Redis ArgumentNullException on startup
-  - Cause: missing Redis connection configuration. Ensure `CacheSettings:ConnectionString` or `ConnectionStrings:Redis` is set, or run Redis locally / in docker compose.
+- Redis connection error on Basket startup
+  - Ensure `CacheSettings:ConnectionString` is set or run Redis (docker compose starts redis:6379).
 
 - No products returned from Catalog
-  - Ensure Catalog is connected to the right MongoDB instance and that the seeded collection is named `Products` (the seeder uses that collection name).
+  - Confirm Catalog is pointing to the same Mongo instance as the seeder (collection name: `Products`).
 
-- Ports conflict
-  - Compose maps Basket to `8080` and Catalog to `8081` by default. Change ports in `docker-compose.yml` or VS launchSettings if needed.
+- Postgres init not applied
+  - If Postgres volume already exists the init scripts are not re-run. Remove the postgres_data volume and restart compose to apply init.sql.
 
----
+- Docker compose validation errors
+  - Run `docker compose -f docker-compose.yml -f docker-compose.override.yml config` to validate combined configuration and detect YAML issues.
 
-## Testing
+## Development tips
 
-- Unit tests: look under `Services/*/*.Tests` (Catalog.Application.Tests exists). Run tests with `dotnet test`.
+- Keep controllers thin — business logic belongs in Application handlers.
+- Add unit tests for handlers and integration tests for API endpoints (use TestServer or testcontainers).
+- Add MediatR validation pipeline to run FluentValidation automatically.
 
----
+## CI / Production notes
 
-## CI/CD recommendations
-
-- Build images and run tests on each PR
-- Push service images to a container registry and deploy via Kubernetes/Helm to staging/prod
-- Scan images and dependencies for vulnerabilities
-
----
+- Use a production-grade migration tool for Discount/Postgres (Flyway, DbUp, or EF Core Migrations) instead of relying on docker-entrypoint init scripts.
+- Use secrets manager (Vault, Azure Key Vault) for production DB/Redis credentials.
+- Add health checks and readiness/liveness probes when moving to Kubernetes.
 
 ## Contributing
 
-- Keep controller code thin. Put business logic, validation, mapping, and persistence into the Application & Infrastructure projects.
-- Add unit tests for handlers and integration tests for API endpoints.
+- Follow repository code style and unit test practices.
+- Keep API contracts stable; version APIs when breaking changes are introduced.
 
----
+## Further help
 
-## Suggested next improvements
-
-- Add MediatR validation pipeline to auto-run FluentValidation validators
-- Add health checks and readiness endpoints for each service
-- Add OpenTelemetry tracing and centralized logging (Serilog + ELK/Seq)
-- Add Helm charts and CI pipeline (GitHub Actions) to build/publish images
-
----
-
-If you want, I can generate a more detailed README with automated run scripts, example requests + Postman collection, and a CI workflow file.
+If you want I can:
+- Add a Postman collection and example curl scripts under `/dev`.
+- Add GitHub Actions workflow to build, test, and publish container images.
+- Add MediatR validation pipeline and Mapster registration in DI for all services.
