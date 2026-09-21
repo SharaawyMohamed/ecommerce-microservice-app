@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FBD6E01D-2381-4BD1-A61A-71BB152F9BF6}|Services\\Discount\\Discount.API\\Discount.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.api\\discount.grpc\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6E01D-2381-4BD1-A61A-71BB152F9BF6}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\discount.grpc\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16831259-120A-45FB-9981-586A92E8D713}|Services\\Discount\\Discount.Core\\Discount.Core.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.core\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16831259-120A-45FB-9981-586A92E8D713}|Services\\Discount\\Discount.Core\\Discount.Core.csproj|solutionrelative:services\\discount\\discount.core\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\commands\\creatediscount\\createcoupondiscountcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.infrustructure\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|solutionrelative:services\\discount\\discount.infrustructure\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.application\\features\\basket\\queries\\getshoppingbasket\\getshoppingbasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\features\\basket\\queries\\getshoppingbasket\\getshoppingbasketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.application\\features\\basket\\commands\\createshoppingbasket\\createshoppingbasketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\features\\basket\\commands\\createshoppingbasket\\createshoppingbasketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequeryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\features\\discount\\queries\\getdiscount\\getdiscountbyproductnamequeryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
     },
@@ -23,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{FDC57FA7-984E-EA3A-852D-27AF0A2CA275}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.override.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\building_blocks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:building_blocks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -42,18 +98,6 @@
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\protos\\discount.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.infrustructure\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|solutionrelative:services\\discount\\discount.infrustructure\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16831259-120A-45FB-9981-586A92E8D713}|Services\\Discount\\Discount.Core\\Discount.Core.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.core\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16831259-120A-45FB-9981-586A92E8D713}|Services\\Discount\\Discount.Core\\Discount.Core.csproj|solutionrelative:services\\discount\\discount.core\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\catalog\\catalog.application\\catalog.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\catalog.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -62,16 +106,8 @@
       "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\mappings\\cartmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B88B5-05F6-442F-8702-74DA70DD1312}|Services\\Discount\\Discount.Application\\Discount.Application.csproj|solutionrelative:services\\discount\\discount.application\\common\\models\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBD6E01D-2381-4BD1-A61A-71BB152F9BF6}|Services\\Discount\\Discount.API\\Discount.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD6E01D-2381-4BD1-A61A-71BB152F9BF6}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBD6E01D-2381-4BD1-A61A-71BB152F9BF6}|Services\\Discount\\Discount.API\\Discount.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -142,10 +178,6 @@
       "RelativeMoniker": "D:0:0:{7AF192A4-A426-E927-1503-04215261B7CE}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\features\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\discount\\discount.infrustructure\\migrations\\20260918221312_initialcreating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40EB1900-F471-4101-9B55-664208BD8B35}|Services\\Discount\\Discount.Infrustructure\\Discount.Infrustructure.csproj|solutionrelative:services\\discount\\discount.infrustructure\\migrations\\20260918221312_initialcreating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -157,54 +189,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCouponDiscountCommandHandler.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
+              "ViewState": "AgIAABEAAACAy8zMzEwmwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:16:47.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Discount.Grpc\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Discount.Grpc\\Services\\DiscountService.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Discount.Grpc\\Services\\DiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Discount.Grpc\\Services\\DiscountService.cs",
+              "ViewState": "AgIAAAkAAAAACAAAAADwvzYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:04:33.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateCouponDiscountCommand.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommand.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommand.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommand.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:16:47.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T13:56:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Discount.proto",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
+              "ViewState": "AgIAAAsAAACQZ2ZmZmYswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-09-19T08:08:12.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCouponDiscountCommandValidator.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandValidator.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandValidator.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:16:48.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetDiscountByProductNameQueryHandler.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
+              "ViewState": "AgIAABEAAABgZWZmZqYiwBEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:56:39.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetDiscountByProductNameQuery.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQuery.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQuery.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:56:38.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetShoppingBasketQuery.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQuery.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQuery.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:12:28.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateShoppingBasketCommandHandler.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAABcPQ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:12:06.643Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Dockerfile",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Dockerfile",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Dockerfile",
-              "RelativeToolTip": "Services\\Discount\\Discount.API\\Dockerfile",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwCkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-18T13:46:18.263Z",
+              "DocumentIndex": 8,
+              "Title": "DiscountRepository.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
+              "ViewState": "AgIAAA8AAABQmZmZmZkxwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T14:01:27.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose.dev.yml",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dev.yml",
-              "RelativeDocumentMoniker": "docker-compose.dev.yml",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dev.yml",
-              "RelativeToolTip": "docker-compose.dev.yml",
-              "ViewState": "AgIAAAAAAAAAZ2ZmZmYkwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-09-20T16:10:23.699Z",
+              "DocumentIndex": 11,
+              "Title": "DiscountGrpc.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\obj\\Debug\\net10.0\\Protos\\DiscountGrpc.cs",
+              "ViewState": "AgIAACMAAADAMjMzM3MkwCwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:04:58.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "GetDiscountByProductNameQueryValidator.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryValidator.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryValidator.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:56:39.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T07:39:34.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "docker-compose.prod.yml",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.prod.yml",
               "RelativeDocumentMoniker": "docker-compose.prod.yml",
               "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.prod.yml",
               "RelativeToolTip": "docker-compose.prod.yml",
-              "ViewState": "AgIAAAsAAACgZWZmZmYkwBIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-09-20T15:47:13.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Dockerfile",
@@ -212,12 +400,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Dockerfile",
               "ViewState": "AgIAAA0AAADALzMzMzMbwBoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-18T11:33:59.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-18T11:33:59.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -225,12 +412,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAEsAAAAwAAAAAIAqwFAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-09-18T11:35:08.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-18T11:35:08.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Dockerfile",
@@ -238,25 +424,47 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Dockerfile",
               "ViewState": "AgIAABgAAAAAZ2ZmZmYUwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-19T00:34:19.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T00:34:19.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-18T23:05:15.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "docker-compose.dev.yml",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dev.yml",
+              "RelativeDocumentMoniker": "docker-compose.dev.yml",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dev.yml",
+              "RelativeToolTip": "docker-compose.dev.yml",
+              "ViewState": "AgIAAAAAAAAAZ2ZmZmYkwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-09-18T21:16:13.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T16:10:23.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Dockerfile",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Dockerfile",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-18T13:46:18.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "BUILDING_BLOCKS.md",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\BUILDING_BLOCKS.md",
               "RelativeDocumentMoniker": "BUILDING_BLOCKS.md",
@@ -264,12 +472,11 @@
               "RelativeToolTip": "BUILDING_BLOCKS.md",
               "ViewState": "AgIAABkAAADAY2ZmZmYkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-20T15:24:52.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T15:24:52.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
@@ -279,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -291,43 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Coupon.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
-              "RelativeToolTip": "Services\\Discount\\Discount.Core\\Entities\\Coupon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-18T13:56:50.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DiscountRepository.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
-              "RelativeToolTip": "Services\\Discount\\Discount.Infrustructure\\Repositories\\DiscountRepository.cs",
-              "ViewState": "AgIAABAAAABA+v////8fwBoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-18T14:01:27.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Discount.proto",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
-              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Protos\\Discount.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2026-09-19T08:08:12.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "Catalog.Application.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
@@ -339,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "CartMapper.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Mappings\\CartMapper.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Mappings\\CartMapper.cs",
@@ -351,19 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
-              "RelativeToolTip": "Services\\Discount\\Discount.Application\\Common\\Models\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T07:39:34.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Program.cs",
@@ -375,19 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-18T23:05:15.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.Development.json",
@@ -399,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "20260918221312_InitialCreating.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Migrations\\20260918221312_InitialCreating.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\Migrations\\20260918221312_InitialCreating.cs",
@@ -411,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\DependencyInjection.cs",
@@ -423,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Basket.Infrustructure.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
@@ -435,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrustructure\\DependencyInjection.cs",
@@ -447,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "DiscountDbContext.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Presistence\\DiscountDbContext.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\Presistence\\DiscountDbContext.cs",
@@ -459,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "init.sql",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Infrustructure\\Data\\init.sql",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Infrustructure\\Data\\init.sql",
@@ -470,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "IDiscountRepository.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Core\\Repositories\\IDiscountRepository.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Core\\Repositories\\IDiscountRepository.cs",
@@ -482,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.json",
@@ -494,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "Discount.API.http",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Discount.API.http",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Discount.API.http",
@@ -506,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "launchSettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Properties\\launchSettings.json",
@@ -518,19 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "README.md",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-18T11:58:41.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.json",
@@ -542,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.Development.json",
@@ -554,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "UpdateProductCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
@@ -566,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "UpdateProductCommand.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
@@ -578,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "UpdateProductCommandValidation.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandValidation.cs",
@@ -590,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "GetAllProductsQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
@@ -602,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrustructure\\Repositories\\ProductRepository.cs",
