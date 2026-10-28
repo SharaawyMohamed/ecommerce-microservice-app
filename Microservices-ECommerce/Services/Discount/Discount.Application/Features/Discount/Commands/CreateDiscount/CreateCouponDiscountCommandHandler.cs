@@ -8,14 +8,14 @@ using System.Text;
 
 namespace Discount.Application.Features.Discount.Commands.CreateDiscount
 {
-	public class CreateCouponDiscountCommandHandler : IRequestHandler<CreateCouponDiscountCommand, BaseResponse>
+	public class CreateCouponDiscountCommandHandler : IRequestHandler<CreateCouponDiscountCommand, Coupon?>
 	{
 		private readonly IDiscountRepository _discountRepository;
 		public CreateCouponDiscountCommandHandler(IDiscountRepository discountRepository)
 		{
 			_discountRepository = discountRepository;
 		}
-		public async Task<BaseResponse> Handle(CreateCouponDiscountCommand request, CancellationToken cancellationToken)
+		public async Task<Coupon?> Handle(CreateCouponDiscountCommand request, CancellationToken cancellationToken)
 		{
 			var discount = new Coupon
 			{
@@ -24,8 +24,7 @@ namespace Discount.Application.Features.Discount.Commands.CreateDiscount
 				Amount = request.Amount
 			};
 			var coupon= await _discountRepository.CreateDiscountAsync(discount);
-			return coupon is not null? BaseResponse.Success(coupon, "Discount created successfully") : BaseResponse.Failure("Failed to create discount");
-
+			return coupon is not null? coupon : throw new InvalidOperationException("Failed to create discount");
 		}
 	}
 }
