@@ -54,9 +54,11 @@ services:
       dockerfile: Services/Basket/Basket.API/Dockerfile
     depends_on:
       - redis
+      - discount.api
     environment:
       - ASPNETCORE_URLS=http://+:8080
       - CacheSettings__ConnectionString=redis:6379
+      - GrpcSettings__DiscountUrl=http://discount.api:8082   
     ports:
       - "8080:8080"
 

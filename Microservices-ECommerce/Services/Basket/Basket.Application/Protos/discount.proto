@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option csharp_namespace = "Discount.Application.Protos";   //to define the namespace of the generated C# code
+
+service DiscountProtoService{
+   rpc CreateDiscount(CreateDiscountRequest) returns (CreateDiscountResponse);
+   rpc UpdateDiscount(UpdateDiscountRequest) returns (UpdateDiscountResponse);
+   rpc DeleteDiscount(DeleteDiscountRequest) returns (DeleteDiscountResponse);
+   rpc GetDiscount(GetDiscountQuery) returns (GetDiscountResponse);
+}
+
+message CreateDiscountRequest{
+  string productName = 1;
+  string Description = 2;
+  int32 amount = 3;
+}
+message CreateDiscountResponse{
+  int32 Id = 1;
+  string productName = 2;
+  string Description = 3;
+  int32 amount = 4;
+}
+message UpdateDiscountRequest{
+  int32 Id = 1;
+  string productName = 2;
+  string Description = 3;
+  int32 amount = 4;
+}	
+message UpdateDiscountResponse{
+  bool isUpdated = 1;
+}
+message DeleteDiscountRequest{
+  string productName = 1;
+}
+message DeleteDiscountResponse{
+  bool isDeleted = 1;
+}
+message GetDiscountQuery{
+  string productName = 1;
+}
+message GetDiscountResponse{
+  int32 Id = 1;
+  string productName = 2;
+  string Description = 3;
+  int32 amount = 4;
+}

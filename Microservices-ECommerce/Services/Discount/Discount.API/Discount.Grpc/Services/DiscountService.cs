@@ -2,10 +2,10 @@
 using Discount.Core.Entities;
 using Grpc.Core;
 using MediatR;
-using Discount.Application.Features.Discount.Queries.GetDiscount; // أو الـ Namespace الصح للـ Query بتاعتك
+using Discount.Application.Features.Discount.Queries.GetDiscount; 
 using Discount.Application.Features.Discount.Commands.CreateDiscount;
 using Discount.Application.Features.Discount.Commands.UpdateDiscount;
-using Discount.Application.Features.Discount.Commands.DeleteDiscount; // أو الـ Namespace الصح للـ Command بتاعتك
+using Discount.Application.Features.Discount.Commands.DeleteDiscount;
 
 namespace Discount.API.Discount.Grpc.Services
 {
