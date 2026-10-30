@@ -78,7 +78,7 @@ This helps keep business logic clean, maintainable, and easy to evolve as the pl
 
 ## Tech stack
 
-- .NET 8 / 9+
+- .NET 10
 - ASP.NET Core
 - C#
 - Docker & Docker Compose
