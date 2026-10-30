@@ -309,9 +309,3 @@ This project reflects a hands-on effort to build an e-commerce backend using mod
 <p align="center">
   <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80" alt="Modern software architecture and backend design" width="100%" />
 </p>
-
-If you want, I can also generate:
-
-1. a premium GitHub landing-page version with more badges and branding,
-2. a shorter portfolio-optimized README,
-3. or a recruiter-focused README tailored for hiring managers.
