@@ -12,10 +12,6 @@
 </div>
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80" alt="E-commerce microservices illustration" width="100%" />
-</p>
-
-<p align="center">
   <strong>A modern e-commerce backend built with .NET microservices, Docker, and independent data stores.</strong>
 </p>
 
@@ -305,7 +301,3 @@ This project does not currently include a license file. If you plan to share it 
 ## Final note
 
 This project reflects a hands-on effort to build an e-commerce backend using modern microservice patterns and .NET tooling. It serves as a strong example of backend engineering, system design, and practical software architecture.
-
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80" alt="Modern software architecture and backend design" width="100%" />
-</p>
