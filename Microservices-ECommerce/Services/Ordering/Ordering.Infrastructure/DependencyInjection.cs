@@ -17,11 +17,12 @@ namespace Ordering.Infrustructure
 			services.AddScoped<IOrderRepository, OrderRepository>();
 
 			// configure distributed cache SQL
-			services.AddDbContext<OrderingDbContext>(options =>
+			services.AddDbContextFactory<OrderingDbContext>(options =>
 			{
 				options.UseSqlServer(configuration.GetConnectionString("OrderingConnectionString"));
 			});
-			
+
+			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(OrderRepository).Assembly));
 
 			return services;
 		}

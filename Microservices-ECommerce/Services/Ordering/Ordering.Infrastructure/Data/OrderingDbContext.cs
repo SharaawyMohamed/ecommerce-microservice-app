@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Ordering.Core.Entityes;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,5 +21,7 @@ namespace Ordering.Infrastructure.Data
 		{
 			base.OnConfiguring(optionsBuilder);
 		}
+
+		public DbSet<Order> Orders { get; set; }
 	}
 }

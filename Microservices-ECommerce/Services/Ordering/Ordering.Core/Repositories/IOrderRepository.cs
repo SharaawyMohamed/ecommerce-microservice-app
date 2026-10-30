@@ -9,5 +9,6 @@ namespace Ordering.Core.Repositories
 	{
 		Task<IEnumerable<Order>> GetOrdersByUserNameAsync(string userName);
 		Task<Order> GetOrderByIdAsync(int id);
+		
 	}
 }

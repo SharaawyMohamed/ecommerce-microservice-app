@@ -41,3 +41,13 @@ services:
         limits:
           cpus: '0.50'
           memory: 512M
+
+  ordering.api:
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M

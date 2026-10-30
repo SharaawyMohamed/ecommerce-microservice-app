@@ -10,5 +10,6 @@ namespace Ordering.Core.Repositories
 		Task AddAsync(T item);
 		Task UpdateAsync(T item);
 		Task DeleteAsync(T item);
+		Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 	}
 }

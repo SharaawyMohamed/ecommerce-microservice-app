@@ -56,7 +56,6 @@ namespace Catalog.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] UpdateProductCommand command)
         {
-            // ensure id consistency
             if (id != command.Id) return BadRequest("Id mismatch");
 
             var response = await mediator.Send(command);
