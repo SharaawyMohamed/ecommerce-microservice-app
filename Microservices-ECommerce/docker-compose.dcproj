@@ -14,6 +14,8 @@
     <None Include="docker-compose.dev.yml" />
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
+    <None Include="FLUENT_VALIDATION_SUMMARY.md" />
+    <None Include="MAPSTER_CONFIGURATION_SUMMARY.md" />
     <None Include="README.md" />
   </ItemGroup>
 </Project>

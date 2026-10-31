@@ -1,5 +1,5 @@
 <Solution>
-  <Folder Name="/Inftastructrue/">
+  <Folder Name="/Infrastructure/">
     <Project Path="Inftastructrue/EventBus.Messages/EventBus.Messages.csproj" Id="8fd5b504-272e-4239-9096-0f38d477f3b6" />
   </Folder>
   <Folder Name="/Services/" />

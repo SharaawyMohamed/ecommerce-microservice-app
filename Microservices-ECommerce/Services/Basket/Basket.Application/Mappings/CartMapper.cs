@@ -12,6 +12,7 @@ namespace Basket.Application.Mappings
 	{
 		public void Register(TypeAdapterConfig config)
 		{
+			// Domain to Response mappings
 			config.NewConfig<ShoppingCart, GetShoppingBasketResponse>();
 			config.NewConfig<ShoppingCartItem, ShoppingBasketItemResponse>();
 		}

@@ -1,4 +1,5 @@
 using Ordering.Infrustructure;
+using Ordering.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 

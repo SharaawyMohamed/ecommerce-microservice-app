@@ -23,3 +23,4 @@ namespace EventBus.Messages.Event
 		}
 	}
 }
+	

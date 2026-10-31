@@ -9,7 +9,7 @@ namespace Catalog.Application.Features.Product.Queries.GetProductByName
     {
         public GetProductByNameValidator()
         {
-            RuleFor(x => x.Name).NotNull().NotEmpty();
+            RuleFor(x => x.Name).NotEmpty().WithMessage("Product Name is required");
         }
     }
 }

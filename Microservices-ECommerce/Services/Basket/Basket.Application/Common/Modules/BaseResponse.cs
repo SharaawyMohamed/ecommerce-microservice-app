@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Catalog.Application.Common.Models
+namespace Basket.Application.Common.Modules
 {
 	public class BaseResponse
 	{

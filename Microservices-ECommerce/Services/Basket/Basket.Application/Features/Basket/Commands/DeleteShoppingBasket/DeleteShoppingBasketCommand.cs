@@ -1,4 +1,4 @@
-using Catalog.Application.Common.Models;
+using Basket.Application.Common.Modules;
 using MediatR;
 
 namespace Basket.Application.Features.Basket.Commands.DeleteShoppingBasket

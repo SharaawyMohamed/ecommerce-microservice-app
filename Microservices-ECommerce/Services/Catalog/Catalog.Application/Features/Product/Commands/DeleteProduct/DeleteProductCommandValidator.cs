@@ -9,6 +9,7 @@ namespace Catalog.Application.Features.Product.Commands.DeleteProduct
     {
         public DeleteProductCommandValidator()
         {
+            RuleFor(x => x.Id).NotEmpty().WithMessage("Product ID is required");
         }
     }
 }

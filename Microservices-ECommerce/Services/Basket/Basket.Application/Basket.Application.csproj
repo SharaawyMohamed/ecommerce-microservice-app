@@ -18,12 +18,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\Inftastructrue\EventBus.Messages\EventBus.Messages.csproj" />
 		<ProjectReference Include="..\Basket.Core\Basket.Core.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Common\Constants\Services\" />
 		<Folder Include="Common\Exceptions\" />
+		<Folder Include="Common\Messaging\" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,4 +1,4 @@
-﻿using Catalog.Application.Common.Models;
+﻿using Basket.Application.Common.Modules;
 using MediatR;
 using System;
 using System.Collections.Generic;

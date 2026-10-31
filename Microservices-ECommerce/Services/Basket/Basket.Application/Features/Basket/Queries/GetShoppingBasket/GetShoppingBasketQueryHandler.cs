@@ -1,6 +1,6 @@
-﻿using Basket.Core.Entities;
+﻿using Basket.Application.Common.Modules;
+using Basket.Core.Entities;
 using Basket.Core.Repositories;
-using Catalog.Application.Common.Models;
 using Mapster;
 using MediatR;
 using System;

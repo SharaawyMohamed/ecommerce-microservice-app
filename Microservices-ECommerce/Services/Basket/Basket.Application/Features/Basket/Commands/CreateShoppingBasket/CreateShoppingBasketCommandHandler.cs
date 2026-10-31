@@ -1,11 +1,11 @@
 ﻿using Basket.Core.Repositories;
-using Catalog.Application.Common.Models;
 using MediatR;
 using Mapster;
 using Basket.Application.Features.Basket.Queries.GetShoppingBasket;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Basket.Application.Common.Modules;
 
 namespace Basket.Application.Features.Basket.Commands.CreateShoppingBasket
 {
