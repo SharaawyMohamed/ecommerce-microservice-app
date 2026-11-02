@@ -6,6 +6,6 @@ using System.Text;
 
 namespace Ordering.Application.Features.Order.Commands.DeleteOrder
 {
-	public record DeleteOrderCommand(int Id) : IRequest<BaseResponse>;
+	public record DeleteOrderCommand(string userName) : IRequest<BaseResponse>;
 
 }

@@ -1,36 +1,37 @@
-﻿using Basket.Core.Repositories;
-using MediatR;
-using Mapster;
+﻿using Basket.Application.Common.Modules;
 using Basket.Application.Features.Basket.Queries.GetShoppingBasket;
+using Basket.Application.GrpcServices;
+using Basket.Core.Entities;
+using Basket.Core.Repositories;
+using Mapster;
+using MediatR;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Basket.Application.Common.Modules;
 
 namespace Basket.Application.Features.Basket.Commands.CreateShoppingBasket
 {
-	public class CreateShoppingBasketCommandHandler : IRequestHandler<CreateShoppingBasketCommand, BaseResponse>
+	public class CreateShoppingBasketCommandHandler : IRequestHandler<CreateShoppingCartBasketCommand, BaseResponse>
 	{
 		private readonly IBasketRepository _repository;
-
-		public CreateShoppingBasketCommandHandler(IBasketRepository repository)
+		private readonly ILogger<CreateShoppingBasketCommandHandler> _logger;
+		public CreateShoppingBasketCommandHandler(IBasketRepository repository, ILogger<CreateShoppingBasketCommandHandler> logger)
 		{
 			_repository = repository;
+			_logger = logger;
 		}
 
-		public async Task<BaseResponse> Handle(CreateShoppingBasketCommand request, CancellationToken cancellationToken)
+		public async Task<BaseResponse> Handle(CreateShoppingCartBasketCommand request, CancellationToken cancellationToken)
 		{
-			if (request?.Cart == null)
-			{
-				return BaseResponse.Failure("Invalid shopping cart payload");
-			}
 
-			await _repository.AddOrUpdateBasketAsync(request.Cart);
+			var cart = request.Adapt<ShoppingCart>();
+			cart.TotalPrice = cart.CalculateTotalPrice();
 
-			// Map domain entity to application response DTO using Mapster
-			var response = request.Cart.Adapt<GetShoppingBasketResponse>();
-
-			return BaseResponse.Success(response, "Basket saved successfully");
+			await _repository.AddOrUpdateBasketAsync(cart);
+			var basket = await _repository.GetBasketByUserNameAsync(request.UserName);
+			_logger.LogInformation("Shopping basket created for user {UserName} with {ItemCount} items and total price {TotalPrice}", request.UserName, basket.Items.Count, basket.TotalPrice);
+			return BaseResponse.Success(basket, "Basket saved successfully");
 		}
 	}
 }

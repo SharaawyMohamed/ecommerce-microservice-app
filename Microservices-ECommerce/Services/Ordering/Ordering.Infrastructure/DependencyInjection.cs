@@ -13,10 +13,8 @@ namespace Ordering.Infrustructure
 	{
 		public static IServiceCollection AddInfrustructure(this IServiceCollection services, IConfiguration configuration)
 		{
-			// register repository
 			services.AddScoped<IOrderRepository, OrderRepository>();
 
-			// configure distributed cache SQL
 			services.AddDbContextFactory<OrderingDbContext>(options =>
 			{
 				options.UseSqlServer(configuration.GetConnectionString("OrderingConnectionString"));

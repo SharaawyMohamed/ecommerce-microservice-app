@@ -9,8 +9,8 @@ namespace Discount.API
 		{
 
 			services.AddGrpc();
-			
 
+			
 
 			return services;
 		}

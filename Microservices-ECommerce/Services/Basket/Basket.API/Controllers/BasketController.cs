@@ -1,4 +1,5 @@
 using Basket.API.Models;
+using Basket.Application.Features.Basket.Commands.BasketChekout;
 using Basket.Application.Features.Basket.Commands.CreateShoppingBasket;
 using Basket.Application.Features.Basket.Commands.DeleteShoppingBasket;
 using Basket.Application.Features.Basket.Queries.GetShoppingBasket;
@@ -31,31 +32,24 @@ namespace Basket.API.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> AddOrUpdateBasket([FromBody] ShoppingCartDto cartDto)
+		public async Task<IActionResult> AddOrUpdateBasket([FromBody] CreateShoppingCartBasketCommand cart)
 		{
-			if (cartDto == null)
+			if (cart is null)
 				return BadRequest("Invalid basket payload");
 
-			// Map API DTO -> domain entity using Mapster
-			var cart = cartDto.Adapt<ShoppingCart>();
-
-			var result = await _mediator.Send(new CreateShoppingBasketCommand(cart));
-
-			if (!result.IsSuccess)
-				return BadRequest(result.Message);
-
-			return Ok(result.Data);
+			return Ok(await _mediator.Send(cart));
 		}
 
 		[HttpDelete("{userName}")]
 		public async Task<IActionResult> DeleteBasket(string userName)
 		{
-			var result = await _mediator.Send(new DeleteShoppingBasketCommand(userName));
+			return Ok(await _mediator.Send(new DeleteShoppingBasketCommand(userName)));
+		}
 
-			if (!result.IsSuccess)
-				return BadRequest(result.Message);
-
-			return NoContent();
+		[HttpPost("checkout")]
+		public async Task<IActionResult> Checkout([FromBody] BasketChekoutCommand command)
+		{
+			return Ok(await _mediator.Send(command));
 		}
 	}
 }

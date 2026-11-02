@@ -2,12 +2,12 @@
 
 namespace Basket.Application.Features.Basket.Commands.CreateShoppingBasket
 {
-	public class CreateShoppingBasketValidator : AbstractValidator<CreateShoppingBasketCommand>
+	public class CreateShoppingBasketValidator : AbstractValidator<CreateShoppingCartBasketCommand>
 	{
 		public CreateShoppingBasketValidator()
 		{
-			RuleFor(x => x.Cart).NotNull().WithMessage("Cart payload is required");
-			RuleFor(x => x.Cart.UserName).NotEmpty().WithMessage("UserName is required");
+			RuleFor(x => x.Items).NotNull().WithMessage("Cart payload is required");
+			RuleFor(x => x.UserName).NotEmpty().WithMessage("UserName is required");
 		}
 	}
 }

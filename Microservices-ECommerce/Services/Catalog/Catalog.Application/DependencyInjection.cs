@@ -4,6 +4,7 @@ using Mapster;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using FluentValidation;
 
 namespace Catalog.Application
 {
@@ -16,6 +17,9 @@ namespace Catalog.Application
 
 			// Register Mapster with DI - auto-discovers IRegister implementations
 			services.AddMapster();
+
+			services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
+			services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>)); services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 			return services;
 		}

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EventBus.Messages
 {
-	public class BasketChekoutEvent: BaseIntegrationEvent
+	public class BasketCheckoutEvent: BaseIntegrationEvent
 	{
 		public string UserName { get; set; }
 		public decimal TotalPrice { get; set; }

@@ -24,28 +24,22 @@ namespace Ordering.API.Controllers
 			return await _mediator.Send(new GetOrderByIdQuery(id));
 		}
 
-		[HttpGet]
+		[HttpGet("user/{userName}")]
 		public async Task<ActionResult<BaseResponse>> GetUserOrders([FromQuery] string userName)
 		{
 			return await _mediator.Send(new GetOrdersByUserNameQuery(userName));
 		}
 
-		[HttpPut]
+		[HttpPut("{id}")]
 		public async Task<ActionResult<BaseResponse>> UpdateOrder(int id, [FromBody] UpdateOrderCommand command)
 		{
 			return await _mediator.Send(command);
 		}
 
-		[HttpPost]
-		public async Task<ActionResult<BaseResponse>> CreateOrder([FromBody] CreateOrderCommand command)
+		[HttpDelete("{userName}")]
+		public async Task<ActionResult<BaseResponse>> DeleteOrder(string userName)
 		{
-			return await _mediator.Send(command);
-		}
-
-		[HttpDelete("{id}")]
-		public async Task<ActionResult<BaseResponse>> DeleteOrder(int id)
-		{
-			return await _mediator.Send(new DeleteOrderCommand(id));
+			return await _mediator.Send(new DeleteOrderCommand(userName));
 		}
 	}
 }

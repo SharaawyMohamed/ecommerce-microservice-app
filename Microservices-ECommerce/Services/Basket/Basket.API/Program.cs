@@ -1,8 +1,12 @@
+using Basket.API.Middlewares;
 using Basket.Application;
 using Basket.Infrustructure;
+using Serilog;
 
+AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseSerilog(Logging.Application.Logging.ConfigureLogging);
 // Add services to the container.
 builder.Services.AddInfrustructure(builder.Configuration)
 	.AddApplication(builder.Configuration);
@@ -24,7 +28,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
+app.UseMiddleware<ValidationExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

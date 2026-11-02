@@ -1,11 +1,16 @@
-using Ordering.Infrustructure;
+using MassTransit;
+using Microsoft.Extensions.DependencyInjection;
+using Ordering.API.Middlewares;
 using Ordering.Application;
+using Ordering.Infrustructure;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Host.UseSerilog(Logging.Application.Logging.ConfigureLogging);
 
-builder.Services.AddInfrustructure(builder.Configuration).AddApplication();
+builder.Services.AddInfrustructure(builder.Configuration)
+	.AddApplication(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
@@ -14,6 +19,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+var busControl = app.Services.GetRequiredService<IBusControl>();
+
+Console.WriteLine($"MassTransit Bus: {busControl.Address}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -24,7 +32,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
+app.UseMiddleware<ValidationExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

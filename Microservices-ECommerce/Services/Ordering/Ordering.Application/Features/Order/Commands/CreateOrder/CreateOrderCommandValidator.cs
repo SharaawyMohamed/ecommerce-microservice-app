@@ -19,7 +19,7 @@ namespace Ordering.Application.Features.Order.Commands.CreateOrder
 			RuleFor(x => x.State).NotEmpty().WithMessage("State is required");
 			RuleFor(x => x.ZipCode).NotEmpty().WithMessage("ZipCode is required");
 			RuleFor(x => x.CardName).NotEmpty().WithMessage("CardName is required");
-			RuleFor(x => x.CardNumber).NotEmpty().CreditCard().WithMessage("Valid CardNumber is required");
+			RuleFor(x => x.CardNumber).NotEmpty().WithMessage("Valid CardNumber is required");
 			RuleFor(x => x.Expiration).NotEmpty().WithMessage("Expiration is required");
 			RuleFor(x => x.CVV).NotEmpty().WithMessage("CVV is required");
 			RuleFor(x => x.PaymentMethod).InclusiveBetween(1, 5).WithMessage("Valid PaymentMethod is required");

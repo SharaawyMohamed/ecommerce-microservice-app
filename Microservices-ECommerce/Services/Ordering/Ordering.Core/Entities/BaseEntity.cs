@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ordering.Core.Entityes
+namespace Ordering.Core.Entities
 {
 	public abstract class BaseEntity
 	{

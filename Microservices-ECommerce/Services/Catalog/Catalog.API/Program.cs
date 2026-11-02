@@ -1,7 +1,11 @@
+using Catalog.API.Middlewares;
 using Catalog.Application;
 using Catalog.Infrustructure.Contexts;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog(Logging.Application.Logging.ConfigureLogging);
 
 builder.Services.AddInfrustructure(builder.Configuration);
 builder.Services.AddApplication();
@@ -23,6 +27,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseMiddleware<ValidationExceptionMiddleware>();
 
 app.MapControllers();
 

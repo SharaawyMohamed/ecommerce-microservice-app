@@ -44,7 +44,7 @@ namespace Basket.Infrustructure.Repositories
 			await _redis.RemoveAsync(userName);
 		}
 
-		public async Task<ShoppingCart> GetBasketAsync(string userName)
+		public async Task<ShoppingCart> GetBasketByUserNameAsync(string userName)
 		{
 			var cart = await _redis.GetStringAsync(userName);
 			return (string.IsNullOrEmpty(cart) ? null

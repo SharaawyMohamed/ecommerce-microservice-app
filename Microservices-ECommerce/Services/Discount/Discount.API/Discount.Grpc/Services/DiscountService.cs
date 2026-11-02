@@ -12,12 +12,10 @@ namespace Discount.API.Discount.Grpc.Services
 	public class DiscountService : DiscountProtoService.DiscountProtoServiceBase
 	{
 		private readonly IMediator _mediator;
-
 		public DiscountService(IMediator mediator)
 		{
 			_mediator = mediator;
 		}
-
 		public override async Task<GetDiscountResponse> GetDiscount(GetDiscountQuery request, ServerCallContext context)
 		{
 			var response = await _mediator.Send(new GetDiscountByProductNameQuery(request.ProductName));
@@ -35,7 +33,6 @@ namespace Discount.API.Discount.Grpc.Services
 			};
 
 		}
-
 		public override async Task<CreateDiscountResponse> CreateDiscount(CreateDiscountRequest request, ServerCallContext context)
 		{
 			var coupon = new CreateCouponDiscountCommand(request.ProductName, request.Amount, request.Description);
@@ -65,7 +62,6 @@ namespace Discount.API.Discount.Grpc.Services
 				IsUpdated = true
 			};
 		}
-	    
 		public override async Task<DeleteDiscountResponse> DeleteDiscount(DeleteDiscountRequest request, ServerCallContext context)
 		{
 			var response = await _mediator.Send(new DeleteDiscountCommand(request.ProductName));
@@ -78,6 +74,5 @@ namespace Discount.API.Discount.Grpc.Services
 				IsDeleted = true
 			};
 		}
-
 	}
 }

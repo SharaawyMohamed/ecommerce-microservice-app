@@ -17,6 +17,7 @@ COPY ["Services/Catalog/Catalog.API/Catalog.API.csproj", "Services/Catalog/Catal
 COPY ["Services/Catalog/Catalog.Application/Catalog.Application.csproj", "Services/Catalog/Catalog.Application/"]
 COPY ["Services/Catalog/Catalog.Core/Catalog.Core.csproj", "Services/Catalog/Catalog.Core/"]
 COPY ["Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj", "Services/Catalog/Catalog.Infrustructure/"]
+COPY ["Infrastructure/Logging.Application/Logging.Application.csproj", "Infrastructure/Logging.Application/"]
 
 RUN dotnet restore "./Services/Catalog/Catalog.API/Catalog.API.csproj"
 

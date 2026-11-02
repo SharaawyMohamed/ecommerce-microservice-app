@@ -1,4 +1,8 @@
 using Mapster;
+using Ordering.Application.Features.Order.Commands.CreateOrder;
+using Ordering.Application.Features.Order.Commands.UpdateOrder;
+using Ordering.Application.Features.Order.Queries.GetOrderById;
+using Ordering.Core.Entities;
 
 namespace Ordering.Application.Mappings
 {
@@ -6,8 +10,11 @@ namespace Ordering.Application.Mappings
 	{
 		public void Register(TypeAdapterConfig config)
 		{
-			// Domain Order entity mappings
-			// Add mappings as Order DTOs/Responses are created
+			config.NewConfig<CreateOrderCommand, Order>().TwoWays();
+			config.NewConfig<Order, UpdateOrderCommand>().TwoWays();
+			config.NewConfig<Order, GetOrderDto>().TwoWays();
+
 		}
+
 	}
 }

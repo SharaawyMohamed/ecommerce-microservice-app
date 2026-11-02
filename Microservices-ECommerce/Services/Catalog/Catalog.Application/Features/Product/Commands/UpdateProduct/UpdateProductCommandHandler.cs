@@ -2,6 +2,7 @@
 using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
 using MediatR;
+using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -10,13 +11,15 @@ namespace Catalog.Application.Features.Product.Commands.UpdateProduct
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, BaseResponse>
     {
         private readonly IProductRepository _productRepository;
+        private readonly ILogger<UpdateProductCommandHandler> _logger;
 
-        public UpdateProductCommandHandler(IProductRepository productRepository)
-        {
-            _productRepository = productRepository;
-        }
+		public UpdateProductCommandHandler(IProductRepository productRepository, ILogger<UpdateProductCommandHandler> logger)
+		{
+			_productRepository = productRepository;
+			_logger = logger;
+		}
 
-        public async Task<BaseResponse> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+		public async Task<BaseResponse> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             try
             {
@@ -32,16 +35,18 @@ namespace Catalog.Application.Features.Product.Commands.UpdateProduct
                 existing.Type = new ProductType { Name = request.Type };
 
                 await _productRepository.UpdateProductAsync(existing);
-
+                _logger.LogInformation("Product updated for ProductId: {ProductId}", request.Id);
                 return BaseResponse.Success(existing, "Product updated");
             }
             catch (MongoDB.Driver.MongoException ex)
             {
-                return BaseResponse.Failure("Database unavailable: " + ex.Message);
+                _logger.LogError(ex, "Database unavailable while updating product with ProductId: {ProductId}", request.Id);
+				return BaseResponse.Failure("Database unavailable: " + ex.Message);
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                return BaseResponse.Failure("Unexpected error: " + ex.Message);
+                _logger.LogError(ex, "Unexpected error occurred while updating product with ProductId: {ProductId}", request.Id);
+				return BaseResponse.Failure("Unexpected error: " + ex.Message);
             }
         }
     }

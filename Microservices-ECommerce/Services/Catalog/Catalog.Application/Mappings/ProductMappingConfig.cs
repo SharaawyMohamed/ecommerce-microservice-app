@@ -13,8 +13,7 @@ namespace Catalog.Application.Mappings
 	{
 		public void Register(TypeAdapterConfig config)
 		{
-			// Domain to Response mappings
-			config.NewConfig<Product, GetProductByIdResponse>();
+			config.NewConfig<Product, GetProducResponse>();
 		}
 	}
 }

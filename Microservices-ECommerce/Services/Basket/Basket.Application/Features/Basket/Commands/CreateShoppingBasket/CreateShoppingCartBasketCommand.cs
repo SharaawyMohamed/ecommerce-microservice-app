@@ -4,6 +4,6 @@ using Basket.Application.Common.Modules;
 
 namespace Basket.Application.Features.Basket.Commands.CreateShoppingBasket
 {
-	public record CreateShoppingBasketCommand(ShoppingCart Cart) : IRequest<BaseResponse>;
+	public record CreateShoppingCartBasketCommand(string UserName, List<ShoppingCartItem> Items) : IRequest<BaseResponse>;
 
 }
