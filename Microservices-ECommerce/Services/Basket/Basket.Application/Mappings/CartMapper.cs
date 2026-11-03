@@ -17,7 +17,7 @@ namespace Basket.Application.Mappings
 		{
 			config.NewConfig<ShoppingCart, GetShoppingBasketResponse>();
 			config.NewConfig<ShoppingCartItem, ShoppingBasketItemResponse>();
-			config.NewConfig<BasketChekoutCommand, BasketCheckoutEvent>();
+			config.NewConfig<BasketChekoutCommand, BasketCheckoutEventV1>();
 			config.NewConfig<ShoppingCart, CreateShoppingCartBasketCommand>().TwoWays();
 			config.NewConfig<ShoppingCart, GetShoppingBasketResponse>().TwoWays();
 		}

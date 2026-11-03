@@ -6,7 +6,7 @@ using MassTransit;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Ordering.Application.Common.Consumders;
+using Ordering.Application.Common.Consumers;
 using Ordering.Application.Common.Observers;
 using Ordering.Application.Features.Order.Commands.CreateOrder;
 

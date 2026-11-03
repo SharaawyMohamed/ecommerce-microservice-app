@@ -6,9 +6,9 @@ using Microsoft.Extensions.Logging;
 using Ordering.Application.Common.Models;
 using Ordering.Application.Features.Order.Commands.CreateOrder;
 
-namespace Ordering.Application.Common.Consumders
+namespace Ordering.Application.Common.Consumers
 {
-	public class BasketCheckoutEventConsumer : IConsumer<BasketCheckoutEvent>
+	public class BasketCheckoutEventConsumer : IConsumer<BasketCheckoutEventV1>
 	{
 		private readonly IMediator _mediator;
 		private readonly ILogger<BasketCheckoutEventConsumer> _logger;
@@ -19,9 +19,9 @@ namespace Ordering.Application.Common.Consumders
 			_logger = logger ?? throw new ArgumentNullException(nameof(logger));
 		}
 
-		public async Task Consume(ConsumeContext<BasketCheckoutEvent> context)
+		public async Task Consume(ConsumeContext<BasketCheckoutEventV1> context)
 		{
-			_logger.LogInformation("BasketCheckoutEvent received. CorrelationId: {CorrelationId}",context.Message.CorrelationId);
+			_logger.LogInformation("BasketCheckoutEventV1 received. CorrelationId: {CorrelationId}",context.Message.CorrelationId);
 
 			var command = context.Message.Adapt<CreateOrderCommand>();
 			_logger.LogInformation("Sending CreateOrderCommand for user: {UserName}",command.UserName);

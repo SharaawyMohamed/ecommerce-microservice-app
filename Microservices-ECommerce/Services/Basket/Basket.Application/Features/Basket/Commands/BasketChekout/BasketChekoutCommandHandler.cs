@@ -42,8 +42,8 @@ namespace Basket.Application.Features.Basket.Commands.BasketChekout
 				return BaseResponse.Failure($"Mr/s {request.UserName}, Your Basket is Empty!! ");
 			}
 
-			var eventMessage = request.Adapt<BasketCheckoutEvent>();
-			_logger.LogInformation("BasketCheckoutEvent is being published to RabbitMQ: {BasketCheckoutEvent}", eventMessage);
+			var eventMessage = request.Adapt<BasketCheckoutEventV1>();
+			_logger.LogInformation("BasketCheckoutEventV1 is being published to RabbitMQ: {BasketCheckoutEventV1}", eventMessage);
 			//TODO: apply coupon code and calculate the total price after discount
 
 			//var userBasket= await _basket.GetBasketByUserNameAsync(request.UserName);
@@ -62,7 +62,7 @@ namespace Basket.Application.Features.Basket.Commands.BasketChekout
 			//await _basket.AddOrUpdateBasketAsync(userBasket);
 
 
-			await _publishEndpoint.Publish<BasketCheckoutEvent>(eventMessage, cancellationToken);
+			await _publishEndpoint.Publish<BasketCheckoutEventV1>(eventMessage, cancellationToken);
 
 			return BaseResponse.Success();
 		}

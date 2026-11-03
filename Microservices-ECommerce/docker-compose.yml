@@ -1,5 +1,40 @@
 
 services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.19.0
+    container_name: elasticsearch
+    restart: unless-stopped
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - backend-net
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:9200/_cluster/health || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.19.0
+    container_name: kibana
+    restart: unless-stopped
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - backend-net
+
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq-broker
@@ -102,10 +137,15 @@ services:
     depends_on:
       mongo:
         condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+
     environment:
       ASPNETCORE_URLS: http://+:8080
       MongoDbSettings__ConnectionString: mongodb://mongo:27017
       MongoDbSettings__DatabaseName: CatalogDb
+      ElasticConfiguration__Uri: http://elasticsearch:9200
+
     ports:
       - "8081:8080"
     networks:
@@ -124,11 +164,16 @@ services:
         condition: service_started
       rabbitmq:
         condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+
     environment:
       ASPNETCORE_URLS: http://+:8080
       CacheSettings__ConnectionString: redis:6379
       GrpcSettings__DiscountUrl: http://discount.api:8080
       EventBusSettings__HostAddress: "rabbitmq://admin:guest@rabbitmq:5672"
+      ElasticConfiguration__Uri: http://elasticsearch:9200
+
     ports:
       - "8080:8080"
     networks:
@@ -143,9 +188,13 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+
     environment:
       ASPNETCORE_URLS: http://+:8080
       ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=DiscountDb;Username=postgres;Password=postgres
+      ElasticConfiguration__Uri: http://elasticsearch:9200
     ports:
       - "8082:8080"
     networks:
@@ -162,11 +211,15 @@ services:
         condition: service_healthy
       rabbitmq:
         condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+
     environment:
       ASPNETCORE_URLS: http://+:8080
       ASPNETCORE_ENVIRONMENT: Development
-      ConnectionStrings__OrderingConnectionString: "Server=sqlserver,1433;Database=OrderingDb;User Id=sa;Password=Str0ng!P@ssw0rd2026;TrustServerCertificate=True"
+      ConnectionStrings__OrderingConnectionString: "Server=sqlserver,1433;Database=OrderingDatabase;User Id=sa;Password=Str0ng!P@ssw0rd2026;TrustServerCertificate=True"
       EventBusSettings__HostAddress: "rabbitmq://admin:guest@rabbitmq:5672"
+      ElasticConfiguration__Uri: http://elasticsearch:9200
     ports:
       - "8083:8080"
     networks:
@@ -178,6 +231,7 @@ volumes:
   redis_data:
   postgres_data:
   sqlserver_data:
+  elasticsearch_data:
 
 networks:
   backend-net:
