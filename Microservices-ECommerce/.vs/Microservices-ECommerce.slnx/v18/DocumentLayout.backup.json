@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\apigatway\\ocelot.apigatway\\ocelot.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|solutionrelative:apigatway\\ocelot.apigatway\\ocelot.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\apigatway\\ocelot.apigatway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|solutionrelative:apigatway\\ocelot.apigatway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\apigatway\\ocelot.apigatway\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DEF16-3A53-49D4-98C8-F9A4761DF008}|APIGatway\\Ocelot.APIGatway\\Ocelot.APIGatway.csproj|solutionrelative:apigatway\\ocelot.apigatway\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\configurations\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\configurations\\configureswaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\controllers\\v1\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\controllers\\v1\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7CE1BEA-4195-760B-8C09-457FB57B8416}|Services\\Basket\\Basket.API\\Basket.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.api\\basket.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -105,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55EC4623-B2F1-4C66-9B6F-839A8BAFD5F7}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\ordering\\ordering.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55EC4623-B2F1-4C66-9B6F-839A8BAFD5F7}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3506E45-161D-66A1-A844-B13702A1FB95}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|f:\\githubrepositories\\ecommerce-microservice-app\\microservices-ecommerce\\services\\basket\\basket.application\\basket.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -326,32 +338,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfigureSwaggerOptions.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
-              "ViewState": "AgIAAAkAAABgzMzMzMwzwBUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T15:12:59.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:40:40.594Z",
+              "Title": "ocelot.Development.json",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\ocelot.Development.json",
+              "RelativeDocumentMoniker": "APIGatway\\Ocelot.APIGatway\\ocelot.Development.json",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\ocelot.Development.json",
+              "RelativeToolTip": "APIGatway\\Ocelot.APIGatway\\ocelot.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-03T23:27:54.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\Program.cs",
+              "RelativeDocumentMoniker": "APIGatway\\Ocelot.APIGatway\\Program.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\Program.cs",
+              "RelativeToolTip": "APIGatway\\Ocelot.APIGatway\\Program.cs",
+              "ViewState": "AgIAABIAAABAmZmZmZkwwCYAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T23:00:18.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:40:40.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\DependencyInjection.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAUAAABAZmZmZmYkwAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T20:20:35.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAgwOgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-11-01T19:44:06.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "APIGatway\\Ocelot.APIGatway\\DependancyInjection.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\APIGatway\\Ocelot.APIGatway\\DependancyInjection.cs",
+              "RelativeToolTip": "APIGatway\\Ocelot.APIGatway\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T23:04:47.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfigureSwaggerOptions.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
+              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Configurations\\ConfigureSwaggerOptions.cs",
+              "ViewState": "AgIAAAoAAAAAY2ZmZmYGwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:12:59.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Configurations\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Configurations\\DependencyInjection.cs",
@@ -359,12 +431,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Configurations\\DependencyInjection.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T13:06:21.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T13:06:21.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Program.cs",
@@ -372,12 +443,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Program.cs",
               "ViewState": "AgIAAA0AAADAMzMzMzMhwBgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:36:55.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:36:55.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "BasketController.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V1\\BasketController.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V1\\BasketController.cs",
@@ -385,38 +455,23 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V1\\BasketController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:45:23.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:45:23.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\DependencyInjection.cs",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:20:35.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Basket.API",
+              "DocumentIndex": 10,
+              "Title": "Basket.API.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Basket.API.csproj",
               "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Basket.API.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAswBEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-03T14:54:28.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T14:54:28.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "APIBaseController.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V1\\APIBaseController.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V1\\APIBaseController.cs",
@@ -424,12 +479,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V1\\APIBaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:44:05.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:44:05.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "BasketChekoutDtoV1.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV1.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV1.cs",
@@ -437,12 +491,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:23:18.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T11:23:18.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V1\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V1\\WeatherForecastController.cs",
@@ -450,12 +503,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V1\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T13:51:14.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T13:51:14.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "BsketChekoutEventConsumer.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Common\\Consumers\\BsketChekoutEventConsumer.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Common\\Consumers\\BsketChekoutEventConsumer.cs",
@@ -463,12 +515,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Common\\Consumers\\BsketChekoutEventConsumer.cs",
               "ViewState": "AgIAABAAAACA/f///38vwBkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:22:42.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:22:42.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "CartMapper.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Mappings\\CartMapper.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Mappings\\CartMapper.cs",
@@ -476,12 +527,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Mappings\\CartMapper.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAABcPRgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T12:00:09.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T12:00:09.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ChekoutMappers.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Mappings\\ChekoutMappers.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Mappings\\ChekoutMappers.cs",
@@ -489,12 +539,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Mappings\\ChekoutMappers.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T12:02:40.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T12:02:40.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "BasketCheckoutEventV1.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\EventBus.Messages\\BasketCheckoutEventV1.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EventBus.Messages\\BasketCheckoutEventV1.cs",
@@ -502,12 +551,11 @@
               "RelativeToolTip": "Infrastructure\\EventBus.Messages\\BasketCheckoutEventV1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:19:51.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:19:51.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\appsettings.json",
@@ -515,12 +563,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.API\\appsettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAgPQcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-01T20:57:16.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:57:16.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "BasketChekoutDtoV2.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV2.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV2.cs",
@@ -528,12 +575,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Models\\BasketChekoutDtoV2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:45:31.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T11:45:31.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "BasketCheckoutEventV2.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\EventBus.Messages\\BasketCheckoutEventV2.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EventBus.Messages\\BasketCheckoutEventV2.cs",
@@ -541,12 +587,11 @@
               "RelativeToolTip": "Infrastructure\\EventBus.Messages\\BasketCheckoutEventV2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:31:01.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:31:01.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "GetShoppingBasketQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQueryHandler.cs",
@@ -554,12 +599,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingBasket\\GetShoppingBasketQueryHandler.cs",
               "ViewState": "AgIAABkAAADAlZmZmZkfwA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:40:28.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:40:28.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "BasketChekoutCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\BasketChekout\\BasketChekoutCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\BasketChekout\\BasketChekoutCommandHandler.cs",
@@ -567,12 +611,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\BasketChekout\\BasketChekoutCommandHandler.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:27:07.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:27:07.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "BasketCheckoutV2.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\BasketCheckoutV2.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Entities\\BasketCheckoutV2.cs",
@@ -580,12 +623,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Core\\Entities\\BasketCheckoutV2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:29:23.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:29:23.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCart.cs",
@@ -593,12 +635,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCart.cs",
               "ViewState": "AgIAAAUAAADw/v///z8lwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:24:56.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:24:56.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "BasketCheckout.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\BasketCheckout.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Entities\\BasketCheckout.cs",
@@ -606,12 +647,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Core\\Entities\\BasketCheckout.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:24:47.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:24:47.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "BaseIntegrationEvent.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\EventBus.Messages\\Event\\BaseIntegrationEvent.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EventBus.Messages\\Event\\BaseIntegrationEvent.cs",
@@ -619,12 +659,11 @@
               "RelativeToolTip": "Infrastructure\\EventBus.Messages\\Event\\BaseIntegrationEvent.cs",
               "ViewState": "AgIAAAkAAABAmZmZmZklwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:22:01.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:22:01.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItem.cs",
@@ -632,25 +671,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Core\\Entities\\ShoppingCartItem.cs",
               "ViewState": "AgIAAAQAAAAAZWZmZmYEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T10:25:10.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T10:25:10.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAANcAAADo//////8XwOgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-11-01T19:44:06.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\Dockerfile",
@@ -658,12 +683,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.API\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-01T22:17:07.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T22:17:07.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
@@ -671,12 +695,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T21:06:30.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:06:30.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "20261102202406_InitialCreating.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20261102202406_InitialCreating.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20261102202406_InitialCreating.cs",
@@ -684,12 +707,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Migrations\\20261102202406_InitialCreating.cs",
               "ViewState": "AgIAACsAAACAlpmZmZktwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T20:24:07.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T20:24:07.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Ordering.Application.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
@@ -697,12 +719,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T21:56:18.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:56:18.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Ordering.Infrastructure.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
@@ -710,12 +731,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-02T20:16:41.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T20:16:41.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -723,12 +743,11 @@
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-01T20:57:38.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:57:38.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Basket.Application.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Basket.Application.csproj",
@@ -736,12 +755,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Basket.Application.csproj",
               "ViewState": "AgIAAAQAAAAgMzMzMzMrwAgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T21:59:36.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:59:36.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Order.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
@@ -749,12 +767,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\Entities\\Order.cs",
               "ViewState": "AgIAAAUAAAAQMzMzMzMrwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:04:25.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:04:25.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Logging.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\Logging.Application\\Logging.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Logging.Application\\Logging.cs",
@@ -762,23 +779,21 @@
               "RelativeToolTip": "Infrastructure\\Logging.Application\\Logging.cs",
               "ViewState": "AgIAACMAAAAAy8zMzMwYwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T10:49:24.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T10:49:24.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "ViewState": "AgIAAFwAAACAmZmZmdkmwEIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-11-02T16:05:43.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T16:05:43.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Dockerfile",
@@ -786,12 +801,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Dockerfile",
               "ViewState": "AgIAAAYAAAAAMjMzMzMrwBIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T12:10:20.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:10:20.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Logging.Application.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\Logging.Application\\Logging.Application.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Logging.Application\\Logging.Application.csproj",
@@ -799,12 +813,11 @@
               "RelativeToolTip": "Infrastructure\\Logging.Application\\Logging.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-02T10:48:51.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T10:48:51.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "GetOrderByIdQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
@@ -812,12 +825,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrderById\\GetOrderByIdQueryHandler.cs",
               "ViewState": "AgIAABIAAAAAMjMzMzMDwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:06:49.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:06:49.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "GetOrdersByUserNameQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrdersByUserName\\GetOrdersByUserNameQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrdersByUserName\\GetOrdersByUserNameQueryHandler.cs",
@@ -825,12 +837,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Queries\\GetOrdersByUserName\\GetOrdersByUserNameQueryHandler.cs",
               "ViewState": "AgIAABMAAAAg//////8vwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:07:56.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:07:56.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Dockerfile",
@@ -838,12 +849,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Dockerfile",
               "ViewState": "AgIAAAkAAAAAAAAAAABAPRQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T12:11:30.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:11:30.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Dockerfile",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Dockerfile",
@@ -851,12 +861,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.API\\Dockerfile",
               "ViewState": "AgIAAAYAAADgZWZmZmYkwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T12:11:39.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:11:39.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Dockerfile.original",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\Dockerfile.original",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Dockerfile.original",
@@ -864,12 +873,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\Dockerfile.original",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T12:11:56.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:11:56.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\Entities\\BaseEntity.cs",
@@ -877,12 +885,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\Entities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:04:35.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:04:35.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "UpdateOrderCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
@@ -890,12 +897,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "ViewState": "AgIAABUAAADgMjMzM/M1wB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:03:00.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:03:00.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "DeleteOrderCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
@@ -903,12 +909,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\DeleteOrder\\DeleteOrderCommandHandler.cs",
               "ViewState": "AgIAABQAAABQMjMzM7MxwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T12:01:38.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T12:01:38.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "CreateCouponDiscountCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
@@ -916,12 +921,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\CreateDiscount\\CreateCouponDiscountCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA2wCIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:58:52.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:58:52.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "DeleteDiscountCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\DeleteDiscount\\DeleteDiscountCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\DeleteDiscount\\DeleteDiscountCommandHandler.cs",
@@ -929,12 +933,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\DeleteDiscount\\DeleteDiscountCommandHandler.cs",
               "ViewState": "AgIAABIAAABAZWZmZmYiwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:57:30.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:57:30.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "UpdateDiscountCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\UpdateDiscount\\UpdateDiscountCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\UpdateDiscount\\UpdateDiscountCommandHandler.cs",
@@ -942,12 +945,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Commands\\UpdateDiscount\\UpdateDiscountCommandHandler.cs",
               "ViewState": "AgIAABsAAAAAy8zMzMwYwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:55:57.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:55:57.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "AddOrderCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\AddOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\AddOrderCommandHandler.cs",
@@ -955,12 +957,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\AddOrderCommandHandler.cs",
               "ViewState": "AgIAAAcAAACAMjMzMzMLwBcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T22:43:28.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T22:43:28.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "GetDiscountByProductNameQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
@@ -968,12 +969,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.Application\\Features\\Discount\\Queries\\GetDiscount\\GetDiscountByProductNameQueryHandler.cs",
               "ViewState": "AgIAABAAAACAYGZmZmYPwB8AAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:54:26.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:54:26.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "GetProductsByTypeQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
@@ -981,12 +981,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductsByType\\GetProductsByTypeQueryHandler.cs",
               "ViewState": "AgIAABsAAACAlpmZmZkZwCgAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:52:22.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:52:22.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "GetProductByNameQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
@@ -994,12 +993,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductByName\\GetProductByNameQueryHandler.cs",
               "ViewState": "AgIAABsAAAAAKTMzMzMWwB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:51:07.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:51:07.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "GetProductByIdQueryHnalder.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
@@ -1007,12 +1005,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetProductById\\GetProductByIdQueryHnalder.cs",
               "ViewState": "AgIAABcAAABgY2ZmZqYuwCoAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:50:01.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:50:01.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "GetAllProductsQueryHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
@@ -1020,12 +1017,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "ViewState": "AgIAABQAAAAANDMzMzMDwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:47:13.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:47:13.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "UpdateProductCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
@@ -1033,12 +1029,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
               "ViewState": "AgIAAB0AAACAZGZmZmYqwCoAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:44:22.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:44:22.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "DeleteProductCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
@@ -1046,12 +1041,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:43:12.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:43:12.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "ShoppingBasketItemResponse.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingItem\\ShoppingBasketItemResponse.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingItem\\ShoppingBasketItemResponse.cs",
@@ -1059,12 +1053,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Queries\\GetShoppingItem\\ShoppingBasketItemResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:42:28.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:42:28.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "DeleteShoppingBasketCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\DeleteShoppingBasket\\DeleteShoppingBasketCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\DeleteShoppingBasket\\DeleteShoppingBasketCommandHandler.cs",
@@ -1072,12 +1065,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\DeleteShoppingBasket\\DeleteShoppingBasketCommandHandler.cs",
               "ViewState": "AgIAABYAAACAy8zMzEwlwBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:39:43.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:39:43.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "CreateShoppingCartBasketCommand.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingCartBasketCommand.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingCartBasketCommand.cs",
@@ -1085,12 +1077,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingCartBasketCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:38:02.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:38:02.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "CreateShoppingBasketValidator.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketValidator.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketValidator.cs",
@@ -1098,12 +1089,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:38:00.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:38:00.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Catalog\\Catalog.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Program.cs",
@@ -1111,12 +1101,11 @@
               "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:15:49.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:15:49.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Program.cs",
@@ -1124,12 +1113,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:33:19.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:33:19.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "CreateShoppingBasketCommandHandler.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
@@ -1137,12 +1125,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Application\\Features\\Basket\\Commands\\CreateShoppingBasket\\CreateShoppingBasketCommandHandler.cs",
               "ViewState": "AgIAABYAAAAAjpmZmZkGwCAAAACkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:28:05.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:28:05.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "Basket.Infrustructure.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
@@ -1150,12 +1137,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Infrustructure\\Basket.Infrustructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-02T11:07:58.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:07:58.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\Program.cs",
@@ -1163,12 +1149,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.API\\Program.cs",
               "ViewState": "AgIAAAEAAABAMjMzMzMrwAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:51:18.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:51:18.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "Basket.Core.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
@@ -1176,12 +1161,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T22:11:56.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T22:11:56.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "CreateOrderCommandValidator.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommandValidator.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommandValidator.cs",
@@ -1189,12 +1173,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommandValidator.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T22:43:49.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T22:43:49.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "CreateOrderCommand.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommand.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommand.cs",
@@ -1202,12 +1185,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Features\\Order\\Commands\\CreateOrder\\CreateOrderCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T22:43:41.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T22:43:41.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
@@ -1215,12 +1197,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
               "ViewState": "AgIAABsAAADgzMzMzMwiwCsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:23:39.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:23:39.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "BusObserver.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Application\\Common\\Observers\\BusObserver.cs",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Common\\Observers\\BusObserver.cs",
@@ -1228,12 +1209,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Common\\Observers\\BusObserver.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAA8wD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T21:17:25.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:17:25.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "EventBus.Messages.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Infrastructure\\EventBus.Messages\\EventBus.Messages.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\EventBus.Messages\\EventBus.Messages.csproj",
@@ -1241,12 +1221,11 @@
               "RelativeToolTip": "Infrastructure\\EventBus.Messages\\EventBus.Messages.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T21:56:34.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:56:34.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "Discount.Application.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.Application\\Discount.Application.csproj",
@@ -1254,12 +1233,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.Application\\Discount.Application.csproj",
               "ViewState": "AgIAAAgAAAAAAAAAAABlPQAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T21:59:04.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:59:04.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "Ordering.Core.csproj",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj",
@@ -1267,12 +1245,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.Core\\Ordering.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-01T21:07:51.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:07:51.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Basket\\Basket.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.json",
@@ -1280,12 +1257,11 @@
               "RelativeToolTip": "Services\\Basket\\Basket.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-01T21:01:16.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T21:01:16.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Ordering\\Ordering.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\appsettings.Development.json",
@@ -1293,12 +1269,11 @@
               "RelativeToolTip": "Services\\Ordering\\Ordering.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-01T20:57:09.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T20:57:09.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\DependencyInjection.cs",
@@ -1306,12 +1281,11 @@
               "RelativeToolTip": "Services\\Discount\\Discount.API\\DependencyInjection.cs",
               "ViewState": "AgIAAAEAAADoZGZmZmYqwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:32:40.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:32:40.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\GitHubRepositories\\ecommerce-microservice-app\\Microservices-ECommerce\\Services\\Discount\\Discount.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.json",
@@ -1319,8 +1293,7 @@
               "RelativeToolTip": "Services\\Discount\\Discount.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-01T19:32:32.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:32:32.023Z"
             }
           ]
         }

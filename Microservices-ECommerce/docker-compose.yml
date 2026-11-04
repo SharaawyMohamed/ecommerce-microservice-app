@@ -127,6 +127,30 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
+  
+  api.gateway:
+    container_name: api_gateway
+    image: apigateway
+    build:
+      context: .
+      dockerfile: APIGatway/Ocelot.APIGatway/Dockerfile
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "8000:8080"
+    depends_on:
+      catalog.api:
+        condition: service_started
+      basket.api:
+        condition: service_started
+      ordering.api:
+        condition: service_started
+    networks:
+      - backend-net 
+
+
 
   catalog.api:
     container_name: catalog_api

@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/APIGateway/">
+    <Project Path="APIGatway/Ocelot.APIGatway/Ocelot.APIGatway.csproj" Id="3e8def16-3a53-49d4-98c8-f9a4761df008" />
+  </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="Infrastructure/EventBus.Messages/EventBus.Messages.csproj" />
     <Project Path="Infrastructure/Logging.Application/Logging.Application.csproj" Id="1d4bfe3a-eca7-40d7-ae06-5187817cfc90" />
