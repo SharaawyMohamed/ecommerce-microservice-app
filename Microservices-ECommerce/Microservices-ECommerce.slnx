@@ -17,6 +17,7 @@
     <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.API/Catalog.API.csproj" />
     <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj" />
     <Project Path="Services/Catalog/Catalog.Application/Catalog.Application.csproj" />
+    <Project Path="Services/Catalog/Catalog.Application.Tests/Catalog.Application.Tests.csproj" />
     <Project Path="Services/Catalog/Catalog.Core/Catalog.Core.csproj" />
   </Folder>
   <Folder Name="/Services/Discount/">

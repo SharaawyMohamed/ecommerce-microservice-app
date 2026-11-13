@@ -1,21 +1,26 @@
 using Catalog.Application.Features.Product.Queries.GetAllProducts;
 using Catalog.Application.Common.Models;
+using Catalog.Application.Features.Product.Queries.GetProductById;
 using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.Extensions.Logging.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace Catalog.Application.Tests
 {
-    [TestClass]
     public class GetAllProductsQueryHandlerTests
     {
         private class InMemoryProductRepository : IProductRepository
         {
             private readonly List<Product> _items = new();
-            public InMemoryProductRepository()
+            private readonly Exception? _getAllProductsException;
+
+            public InMemoryProductRepository(Exception? getAllProductsException = null)
             {
+                _getAllProductsException = getAllProductsException;
                 _items.Add(new Product { id = "1", Name = "Item1", Description = "d", Price = 10, ImageFile = "i", Summary = "s", Brand = new ProductBrand { Name = "B" }, Type = new ProductType { Name = "T" } });
             }
 
@@ -33,6 +38,11 @@ namespace Catalog.Application.Tests
 
             public Task<IEnumerable<Product>> GetAllProductsAsync()
             {
+                if (_getAllProductsException is not null)
+                {
+                    throw _getAllProductsException;
+                }
+
                 return Task.FromResult<IEnumerable<Product>>(_items);
             }
 
@@ -59,16 +69,31 @@ namespace Catalog.Application.Tests
             }
         }
 
-        [TestMethod]
-        public async Task Handle_ReturnsProducts()
+        [Fact]
+        public async Task Handle_WhenRepositoryReturnsProducts_ReturnsMappedProducts()
         {
             var repo = new InMemoryProductRepository();
-            var handler = new GetAllProductsQueryHandler(repo);
+            var handler = new GetAllProductsQueryHandler(repo, NullLogger<GetAllProductsQueryHandler>.Instance);
 
             var result = await handler.Handle(new GetAllProductsQuery(), default);
 
-            Assert.IsTrue(result.IsSuccess);
-            Assert.IsNotNull(result.Data);
+            Assert.True(result.IsSuccess);
+            var products = Assert.IsType<List<GetProducResponse>>(result.Data);
+            Assert.Equal(1, products.Count);
+            Assert.Equal("1", products[0].Id);
+            Assert.Equal("Item1", products[0].Name);
+        }
+
+        [Fact]
+        public async Task Handle_WhenRepositoryThrows_ReturnsFailureResponse()
+        {
+            var repo = new InMemoryProductRepository(new InvalidOperationException("repository failed"));
+            var handler = new GetAllProductsQueryHandler(repo, NullLogger<GetAllProductsQueryHandler>.Instance);
+
+            var result = await handler.Handle(new GetAllProductsQuery(), default);
+
+            Assert.False(result.IsSuccess);
+            Assert.Equal("Unexpected error: repository failed", result.Message);
         }
     }
 }

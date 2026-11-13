@@ -4,14 +4,15 @@ on:
       - main
       - "develop/**"
     paths:
-      - "Infrastructure/**"
-      - "Sercices/**"
-      - "APIGatway/**"
-      - "docker-compose*.yml"
+      - "Microservices-ECommerce/**"
+      - ".github/workflows/push-pr.yml"
   pull_request:
-    - main
-    - "develop/**"
-    
+    branches:
+      - main
+      - "develop/**"
+    paths:
+      - "Microservices-ECommerce/**"
+      - ".github/workflows/push-pr.yml"
 
 jobs:
   build-and-test:
@@ -27,11 +28,10 @@ jobs:
           dotnet-version: "10.0.x"
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore Services/Catalog/Catalog.Application.Tests/Catalog.Application.Tests.csproj
+        working-directory: Microservices-ECommerce
 
-      - name: Build solution
-        run: dotnet build --no-restore
-
-      - name: Run tests
-        run: dotnet test
+      - name: Build and run tests
+        run: dotnet test Services/Catalog/Catalog.Application.Tests/Catalog.Application.Tests.csproj --no-restore
+        working-directory: Microservices-ECommerce
   
