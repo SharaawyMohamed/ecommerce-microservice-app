@@ -14,11 +14,11 @@
     <Project Path="Services/Basket/Basket.Infrustructure/Basket.Infrustructure.csproj" />
   </Folder>
   <Folder Name="/Services/Catalog/">
-    <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.API/Catalog.API.csproj" />
-    <Project Path="F:/GitHubRepositories/ecommerce-microservice-app/Microservices-ECommerce/Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj" />
     <Project Path="Services/Catalog/Catalog.Application/Catalog.Application.csproj" />
+    <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" />
     <Project Path="Services/Catalog/Catalog.Application.Tests/Catalog.Application.Tests.csproj" />
     <Project Path="Services/Catalog/Catalog.Core/Catalog.Core.csproj" />
+    <Project Path="Services/Catalog/Catalog.Infrustructure/Catalog.Infrustructure.csproj" />
   </Folder>
   <Folder Name="/Services/Discount/">
     <Project Path="Services/Discount/Discount.API/Discount.API.csproj" Id="fbd6e01d-2381-4bd1-a61a-71bb152f9bf6" />
