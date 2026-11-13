@@ -1,0 +1,16 @@
+name: ecommerce-microservice-app
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a welcome message
+        run: echo "welcome to our ecommerce-microservice-app"
+        
+      
