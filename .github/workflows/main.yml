@@ -12,5 +12,10 @@ jobs:
     steps:
       - name: Print a welcome message
         run: echo "welcome to our ecommerce-microservice-app"
-        
+
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+
+      - name: list repository file
+        run: ls -la
       
